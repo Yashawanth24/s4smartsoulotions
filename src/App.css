@@ -611,7 +611,9 @@ h5 {
   display: block;
   text-align: start;
 }
-
+a {
+  text-decoration: none;
+}
 
 /* Mobile view for screens up to 768px wide */
 @media only screen and (max-width: 768px) {
