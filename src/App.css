@@ -683,3 +683,33 @@ h5 {
     
     /* Hide the images on both mobile and medium-sized screens */
   }}
+  /* Default styles for larger screens */
+.image-container .moving-image {
+  bottom: -4%;
+}
+
+.image-container .moving-image.sticker {
+  bottom: -54%;
+}
+
+/* Media query for devices with a max width of 768px (tablet and smaller devices) */
+@media (max-width: 768px) {
+  .image-container .moving-image {
+    bottom: 0%; /* Adjust this value to move the image higher or lower */
+  }
+
+  .image-container .moving-image.sticker {
+    bottom: -30%; /* Adjust this value to move the image higher or lower */
+  }
+}
+
+/* Media query for devices with a max width of 576px (mobile devices) */
+@media (max-width: 576px) {
+  .image-container .moving-image {
+    bottom: 100%; /* Adjust this value to move the image higher or lower */
+  }
+
+  .image-container .moving-image.sticker {
+    bottom: 100%; /* Adjust this value to move the image higher or lower */
+  }
+}
