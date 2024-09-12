@@ -6,7 +6,7 @@ const ServicesSection = () => {
         <section className="services-section">
       <div className="services-content">
         <h2 className="services-title">OUR</h2>
-        <h1 className="services-heading">SERVICES</h1>
+        <h1 className="services-heading font-weight-bold">SERVICES</h1>
         <p className="services-description">
           Our design agency offers innovative solutions that captivate customers, drive engagement, and get results.
         </p>
