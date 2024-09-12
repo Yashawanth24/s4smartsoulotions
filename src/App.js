@@ -4,6 +4,8 @@ import './App.css';
 import Header from './Header';
 import ServicesSection from './ServicesSection';
 import FullSite from './FullSite';
+import ContactForm from './ContactForm';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <Routes>
           <Route path="/" element={<FullSite />} />
           <Route path="/services" element={<ServicesSection />} />
+          <Route path='/contact' element={<ContactForm/>}/>
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );

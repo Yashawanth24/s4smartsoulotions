@@ -1,9 +1,8 @@
 import React from 'react'
 import Body from './Body'
 import Product from './Product'
-import Skills from './Skills'
 import HeroSection from './HeroSection'
-
+import SkillsSection from './SkillsSection'
 
 const FullSite = () => {
   return (
@@ -11,7 +10,7 @@ const FullSite = () => {
         <HeroSection/>
         <Body/>
         <Product/>
-        <Skills/>
+        <SkillsSection/>
     </div>
   )
 }
