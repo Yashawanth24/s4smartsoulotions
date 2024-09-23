@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const servicesData = {
   socialads: {
@@ -178,7 +178,9 @@ const IndivdualServices = () => {
       <div className="text-content">
         <h4>Premium Solutions</h4>
         <h1>Ready To Get Started? Connect With Us.</h1>
+        <Link to={"/contact"}>
         <button className="cta-button">GET A DEMO</button>
+        </Link>
       </div>
       <div className="image-contentservice">
         <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660e77ec2dcc2cf4136017d4_two_arrows.webp" alt="Premium Solutions Stars" className="premium-image" />

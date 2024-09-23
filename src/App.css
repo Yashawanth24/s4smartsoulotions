@@ -964,9 +964,9 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #fff; /* White text */
+  color: #fff; 
   font-family: 'Arial', sans-serif;
-  gap: 50px; /* Adds space between the text and image */
+  gap: 50px; 
 }
 
 .text-content {
