@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeroSection = () => {
   return (
-    <div className="container-fluid text-white p-5" id="body" style={{ backgroundColor: 'black', height: '100vh' }}>
+    <div className="container-fluid text-white p-5" id="body" style={{ backgroundColor: 'black', paddingBottom:'60px' }}>
       <div className="row mt-5">
         <div className="col-md-1"></div>
         <div className="col-md-5 position-relative d-flex justify-content-start align-items-start rounded-lg image-container">
@@ -13,9 +13,9 @@ const HeroSection = () => {
     style={{
       maxWidth: '60%',
       right: '80%',
-      bottom: '12%',
+      bottom: '8%',
       transform: 'rotate(-15deg)',
-      borderRadius: '20px'
+      borderRadius: '20px',
     }}
   />
   <img
@@ -26,7 +26,7 @@ const HeroSection = () => {
     style={{
       maxWidth: '38%',
       right: '34%',
-      bottom: '-24%',
+      bottom: '-10%',
       height: '300px',
       transform: 'rotate(20deg)',
       borderRadius: '20px'

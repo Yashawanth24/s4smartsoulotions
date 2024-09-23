@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React,  from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
@@ -15,7 +15,6 @@ const ContactForm = () => {
         <h6 className="text-uppercase">Get in Touch</h6>
         <h1 className="display-6 font-weight-bold">CONTACT US</h1>
 
-        {/* Formspree Form */}
         <form className="mt-5" onSubmit={handleSubmit}>
           <div className="form-group">
             <label>Name</label>
