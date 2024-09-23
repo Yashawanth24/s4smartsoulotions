@@ -843,13 +843,8 @@ h5 {
   gap: 40px;
   margin-top: 120px;
   background: #ffffff;
-  width: 100vw; 
-  position: relative; 
-  left: 50%; 
-  right: 50%;
-  margin-left: -50vw; 
-  margin-right: -50vw;
-  height: 100vh;
+
+
 }
 
 .image-and-text {
@@ -927,12 +922,7 @@ h5 {
   justify-content: center;
   padding: 50px 20px;
   background-color: #f5f5f5; 
-  width: 100vw; 
-  position: relative; 
-  left: 50%; 
-  right: 50%;
-  margin-left: -50vw; 
-  margin-right: -50vw;
+  width: 100;
   
 }
 

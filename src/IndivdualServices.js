@@ -173,7 +173,6 @@ const IndivdualServices = () => {
           </div>
         </div>
       </section>
-    
     </div>
   );
 };
