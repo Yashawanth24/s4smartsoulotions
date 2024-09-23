@@ -9,11 +9,11 @@ const HeroSection = () => {
   <img
     src="image/hero1.jpg"
     alt="Illustration"
-    className="img-fluid position-absolute moving-image hide-on-mobile"
+    className="img-fluid position-absolute moving-image1"
     style={{
       maxWidth: '60%',
       right: '80%',
-      bottom: '-4%',
+      bottom: '12%',
       transform: 'rotate(-15deg)',
       borderRadius: '20px'
     }}
@@ -21,24 +21,26 @@ const HeroSection = () => {
   <img
     src="image/hero2.jpg"
     alt="Sticker"
-    className="img-fluid position-absolute moving-image hide-on-mobile sticker"
+    className="img-fluid position-absolute moving-image2"
+    id='moving2'
     style={{
-      maxWidth: '45%',
-      right: '28%',
-      bottom: '-54%',
+      maxWidth: '38%',
+      right: '34%',
+      bottom: '-24%',
       height: '300px',
-      transform: 'rotate(18deg)',
+      transform: 'rotate(20deg)',
       borderRadius: '20px'
+      
     }}
   />
 </div>
 
 
-        <div className="col-md-6 d-flex flex-column justify-content-center align-items-start text-start custom-text-section">
-          <h1 className="main-heading" style={{ fontSize: '3.6rem', fontWeight: 'bold', lineHeight: '1.2', marginBottom: '1rem', textAlign: 'left' }}>
+        <div className="col-md-6 d-flex flex-column justify-content-center align-items-center text-start custom-text-section">
+          <h1 className="main-heading" style={{ fontWeight: 'bold', textAlign: 'left' , fontFamily:'Inter', display:'block', width:'450px', paddingRight:'20px'}}>
             Unlock Your Business Potential With AI-Powered Solutions.
           </h1>
-          <p className="subheading" style={{ fontSize: '1.2rem', maxWidth: '500px', marginBottom: '0', textAlign: 'left' }}>
+          <p className="subheading" style={{ fontSize: '17px', maxWidth: '500px', marginBottom: '0', textAlign: 'left', display:'block', fontWeight:'100px',  width:'450px' }}>
             Find, convert, and keep more customers with our growth marketing platform. We offer innovative technology and unparalleled expertise to move your business forward.
           </p>
         </div>

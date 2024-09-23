@@ -32,7 +32,6 @@ const Body = () => {
             </div>
          
 
-          {/** Second Item */}
           <div className="item">
             <img
               src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/663db399bfa2df8a64075956_Icon-5.webp"
@@ -45,7 +44,7 @@ const Body = () => {
             </div>
           </div>
 
-          {/** Third Item */}
+
           <div className="item">
             <img
               src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/663db3998a65bd40fb989855_Group-795.webp"

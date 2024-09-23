@@ -7,7 +7,7 @@ const Header = () => {
       <div className="container">
         <a className="navbar-brand d-flex align-items-center" href="#">
           <img
-            src="image/logo.png"
+            src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/669117fd7e590071c77616f7_s4m-logo-main.png"
             alt="Logo"
             style={{ width: '100px', height: '100px', marginRight: '100px' }}
           />

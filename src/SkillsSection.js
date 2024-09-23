@@ -40,7 +40,6 @@ const SkillsSection = () => {
             <h2 className="cta-title" >TALK</h2>
           </div>
           <div className="cta-content">
-            {/* Avatar Section */}
             <div className="cta-avatar-flex">
               <div className="avatars-flex">
               <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba9370735d_arrow_out.svg" alt="Arrow Icon" className="services-arrow-image" />
@@ -50,13 +49,11 @@ const SkillsSection = () => {
               </div>
               
             </div>
-            {/* Text Section */}
             <p className="cta-text">
               "Beautiful design has the power to captivate."
               <br />
               "Get in touch with our team of designers."
             </p>
-            {/* Contact Button */}
             <a href="/contact" className="cta-button">
               CONTACT US →
             </a>

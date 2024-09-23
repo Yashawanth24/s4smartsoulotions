@@ -1,21 +1,22 @@
 import React from 'react';
 
-
 const Footer = () => {
   return (
-    <footer className="footer-footer-top">
+    <footer className="footer-footer-top container-fluid">
       <div className="footer-row">
-        {/* Logo */}
-        <a href="/" className="logo-link-wrapper">
-          <img
-            src="image/logo.png" // replace with the actual logo URL
-            alt="S4 Smart Solutions Logo"
-            className="footer-logo"
-          />
-        </a>
+        {/* Logo Section */}
+        <div className="col-4">
+          <a href="/" className="logo-link-wrapper">
+            <img
+              src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/669117fd7e590071c77616f7_s4m-logo-main.png"
+              alt="S4 Smart Solutions Logo"
+              className="footer-logo"
+            />
+          </a>
+        </div>
 
         {/* Main Section */}
-        <div className="footer-section">
+        <div className="col-4 footer-section">
           <h5>Main</h5>
           <ul className="footer-links">
             <li><a href="/" className="footer-link">Home</a></li>
@@ -25,7 +26,7 @@ const Footer = () => {
         </div>
 
         {/* Pages Section */}
-        <div className="footer-section">
+        <div className="col-4 footer-section">
           <h5>Pages</h5>
           <ul className="footer-links">
             <li><a href="/contact" className="footer-link">Contact</a></li>
@@ -35,10 +36,8 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Divider */}
       <hr className="footer-divider" />
 
-      {/* Copyright */}
       <div className="footer-copyright">
         <p>© 2024 S4 Smart Solutions. All Rights Reserved.</p>
       </div>
