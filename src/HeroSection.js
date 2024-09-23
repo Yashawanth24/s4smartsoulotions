@@ -11,7 +11,11 @@ const HeroSection = () => {
     alt="Illustration"
     className="img-fluid position-absolute moving-image1"
     style={{
-        max-width: 60%; right: 80%; bottom: 20%; transform: rotate(-15deg); border-radius: 20px;
+      maxWidth: '60%',
+      right: '80%',
+      bottom: '8%',
+      transform: 'rotate(-15deg)',
+      borderRadius: '20px',
     }}
   />
   <img
@@ -20,7 +24,12 @@ const HeroSection = () => {
     className="img-fluid position-absolute moving-image2"
     id='moving2'
     style={{
-      max-width: 44%; right: 26%; bottom: -19%; height: 300px; transform: rotate(20deg); border-radius: 20px;
+      maxWidth: '48%',
+      right: '34%',
+      bottom: '-10%',
+      height: '300px',
+      transform: 'rotate(20deg)',
+      borderRadius: '20px'
       
     }}
   />
