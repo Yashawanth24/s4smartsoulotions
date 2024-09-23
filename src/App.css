@@ -957,6 +957,60 @@ img {
   height: 100px; 
   width: auto;
 }
+.premium-section {
+
+  background-image: url(https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660e78452b5715986bc8588c_cta-section-gradient.webp);
+  padding: 130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff; /* White text */
+  font-family: 'Arial', sans-serif;
+  gap: 50px; /* Adds space between the text and image */
+}
+
+.text-content {
+  max-width: 45%; /* Adjust width to create more space */
+}
+
+.text-content h4 {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.text-content h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  line-height: 1.2;
+}
+
+.cta-button {
+  background-color: #e3e3e3;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.premium-image {
+  max-width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin-left: 50px; /* Adds space between the image and text */
+}
+
+
+.image-contentservice {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.premium-image {
+  max-width: 350px; /* Adjust size as needed */
+  height: auto;
+}
 
 @media only screen and (max-width: 768px) {
 

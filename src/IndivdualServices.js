@@ -173,6 +173,18 @@ const IndivdualServices = () => {
           </div>
         </div>
       </section>
+      <section>
+      <div className="premium-section">
+      <div className="text-content">
+        <h4>Premium Solutions</h4>
+        <h1>Ready To Get Started? Connect With Us.</h1>
+        <button className="cta-button">GET A DEMO</button>
+      </div>
+      <div className="image-contentservice">
+        <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660e77ec2dcc2cf4136017d4_two_arrows.webp" alt="Premium Solutions Stars" className="premium-image" />
+      </div>
+    </div>
+      </section>
     </div>
   );
 };
