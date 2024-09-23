@@ -921,6 +921,45 @@ h5 {
   position: static;
   place-self: end;
 }
+.partner-recognition {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 20px;
+  background-color: #f5f5f5; /* Light grey background */
+}
+
+.content-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px; /* Adjust based on your layout needs */
+}
+
+.text-content3 {
+  flex: 1;
+  padding-right: 50px; /* Space between text and images */
+  color: #161616;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
+.text-content3 h2{
+  text-transform: capitalize;
+  font-size: 45px;
+  line-height: 55px;
+}
+.image-row {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end; 
+  gap: 20px; 
+}
+
+img {
+  height: 100px; 
+  width: auto;
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -1252,8 +1291,8 @@ align-items: center;
   }
   .header-content h1 {
     font-size: 46px;
-        line-height: 50px;
-        color: var(--light-black-color);
+    line-height: 50px;
+    color: var(--light-black-color);
     text-align: center;
     text-transform: capitalize;
     padding-bottom: 20px;

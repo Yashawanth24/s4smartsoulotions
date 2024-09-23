@@ -122,7 +122,6 @@ const IndivdualServices = () => {
         </div>
       </section>
 
-
       <section className="dashboard-content">
         <div className="text-content">
           <h2>Get the best results for your business</h2>
@@ -133,12 +132,10 @@ const IndivdualServices = () => {
           <p className="info-text">Know your campaigns are in good hands</p>
         </div>
 
-
         <div className="image-content">
           <img src={service.imageUrl} alt={`${service.title} Preview`} />
         </div>
       </section>
-
 
       <section className="display-ads-content">
         <div className="image-and-text">
@@ -160,8 +157,24 @@ const IndivdualServices = () => {
           </div>
         </div>
       </section>
+
+      {/* New Section to Display Uploaded Image */}
+      <section className="partner-recognition">
+        <div className="content-wrapper">
+          <div className="text-content3">
+            <h2>Recognized By Industry-Leading Partners</h2>
+            <p>Our team is recognized for maximizing customer success and driving growth through high-performing campaigns.</p>
+          </div>
+          <div className="image-row">
+            <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f1943c70caa5b6aa6f0_PremierBadgeClickable.svg" alt="Google Premier Partner" />
+            <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f196a7ef282a621d82a_2024-MSA-Partner-Program-Badge-Elite-2048x706-p-1600.webp" alt="Microsoft Advertising Elite Partner 2024" />
+            <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f1902766807ba75075b_meta-1.webp" alt="Meta Business Partner" />
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
+
 
 export default IndivdualServices;
