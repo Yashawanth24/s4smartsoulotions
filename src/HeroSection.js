@@ -7,26 +7,26 @@ const HeroSection = () => {
         <div className="col-md-1"></div>
         <div className="col-md-5 position-relative d-flex justify-content-start align-items-start rounded-lg image-container">
   <img
-    src="image/hero1.jpg"
+    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707340_Free_4_Photorealistic_Folders_Mockup-p-500.jpg"
     alt="Illustration"
     className="img-fluid position-absolute moving-image1"
     style={{
       maxWidth: '60%',
       right: '80%',
-      bottom: '8%',
+      bottom: '20%',
       transform: 'rotate(-15deg)',
       borderRadius: '20px',
     }}
   />
   <img
-    src="image/hero2.jpg"
+    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707342_Sticker-Mockup-p-500.jpg"
     alt="Sticker"
     className="img-fluid position-absolute moving-image2"
     id='moving2'
     style={{
-      maxWidth: '38%',
-      right: '34%',
-      bottom: '-10%',
+      maxWidth: '44%',
+      right: '26%',
+      bottom: '-19%',
       height: '300px',
       transform: 'rotate(20deg)',
       borderRadius: '20px'

@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useParams } from "react-router-dom";
 
 const servicesData = {
+  
   socialads: {
     title: "Social Ads",
     description: "Reach more of your potential customers and boost online visibility with social media advertising. We'll work with you to build an effective social ad strategy based on your unique goals and budget.",
@@ -104,14 +105,16 @@ const servicesData = {
 };
 
 const IndivdualServices = () => {
+
   const { serviceId } = useParams(); 
   const service = servicesData[serviceId]; 
-
+ 
   if (!service) {
     return <div>Service not found</div>; 
   }
 
   return (
+    
     <div>
     <div className="social-ads-container">
 
@@ -124,14 +127,21 @@ const IndivdualServices = () => {
       </section>
 
       <section className="dashboard-content">
-        <div className="text-content">
-          <h2>Get the best results for your business</h2>
-          <p className="subheading1">Have everything you need in one place</p>
-          <p className="info-text">
-            See performance and results from your campaigns across multiple platforms in one unified marketing dashboard.
-          </p>
-          <p className="info-text">Know your campaigns are in good hands</p>
-        </div>
+      <div className="text-content">
+        <h2>Get the best results for your business</h2>
+        {paragraphs.map((para, index) => (
+          <div key={index}>
+            <p className="subheading1" onClick={() => toggleAccordion(index)} style={{ cursor: 'pointer' }}>
+              {para.title}
+            </p>
+            {openIndex === index && (
+              <div className="accordion-content">
+                <p className="info-text">{para.content}</p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
 
         <div className="image-content">
           <img src={service.imageUrl} alt={`${service.title} Preview`} />
