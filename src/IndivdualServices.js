@@ -112,6 +112,7 @@ const IndivdualServices = () => {
   }
 
   return (
+    <div>
     <div className="social-ads-container">
 
       <section className="header-content">
@@ -136,7 +137,7 @@ const IndivdualServices = () => {
           <img src={service.imageUrl} alt={`${service.title} Preview`} />
         </div>
       </section>
-
+      </div>
       <section className="display-ads-content">
         <div className="image-and-text">
           <img
@@ -172,6 +173,7 @@ const IndivdualServices = () => {
           </div>
         </div>
       </section>
+    
     </div>
   );
 };
