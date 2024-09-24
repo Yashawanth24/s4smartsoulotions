@@ -9,7 +9,7 @@ const Header = () => {
           <img
             src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/669117fd7e590071c77616f7_s4m-logo-main.png"
             alt="Logo"
-            style={{ marginRight: '100px'}}
+            style={{ marginRight: '110px'}}
           />
         </a>
         <button
