@@ -13,7 +13,7 @@ const HeroSection = () => {
     style={{
       maxWidth: '60%',
       right: '80%',
-      bottom: '8%',
+      bottom: '23%',
       transform: 'rotate(-15deg)',
       borderRadius: '20px',
     }}
@@ -24,10 +24,10 @@ const HeroSection = () => {
     className="img-fluid position-absolute moving-image2"
     id='moving2'
     style={{
-      maxWidth: '48%',
-      right: '34%',
+      maxWidth: '44%',
+      right: '32%',
       bottom: '-10%',
-      height: '300px',
+    
       transform: 'rotate(20deg)',
       borderRadius: '20px'
       
