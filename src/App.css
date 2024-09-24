@@ -790,6 +790,40 @@ h5 {
   background-color: #d4d4d4;
 }
 
+.dashboard-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text-content {
+  width: 60%;
+}
+
+.subheading1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.accordion-content {
+  margin: 5px 0 20px;
+  padding-left: 15px;
+  border-left: 3px solid #ccc;
+}
+
+.info-text {
+  font-size: 16px;
+}
+
+.image-content {
+  width: 35%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
 
 .dashboard-content {
   display: grid;
@@ -813,7 +847,7 @@ h5 {
   line-height: 36px;
   margin-bottom: 10px;
   display: block;
-  color: #befb7c;
+ color: #fff;
   font-weight: 400;
 }
 
@@ -822,7 +856,7 @@ h5 {
   line-height: 32px;
   margin-bottom: 10px;
   display: block;
-  color: #fff;
+  color: #befb7c;
   font-weight: 400;
 }
 
@@ -1454,18 +1488,24 @@ img {
     .header-content p {
       font-size: 16px;
       line-height: 1.5;
+      text-align: center;
     }
   }
 
   /* For mobile phones (less than 480px wide) */
   @media (max-width: 480px) {
     .header-content p {
-      font-size: 34px;
+      font-size: 14px;
       line-height: 1.4;
-      margin-left: 170px;
+      margin-left: 0;
+      text-align: center !important;
     }
   }
-
+  @media (max-width: 480px){
+    #socialpara{
+      text-align: centerdashboard-content;
+    }
+  }
   .cta-button1 {
     padding: 10px 20px;
     align-self: center;

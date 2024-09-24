@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { Link, useParams } from "react-router-dom";
 
 const servicesData = {
@@ -108,7 +109,20 @@ const IndivdualServices = () => {
 
   const { serviceId } = useParams(); 
   const service = servicesData[serviceId]; 
- 
+  const [openIndex, setOpenIndex] = useState(null);
+  const paragraphs = [
+    { title: 'What is the best way to improve my business?', content: 'The best way is to focus on customer satisfaction and efficient processes.' },
+    { title: 'How can I grow my revenue?', content: 'You can grow revenue by targeting new markets and improving your product.' },
+    { title: 'What marketing strategies should I use?', content: 'Leverage social media and paid ads to target the right audience.' },
+    { title: 'How do I increase customer retention?', content: 'Offering great customer service and loyalty programs can help increase retention.' }
+  ];
+  const toggleAccordion = (index) => {
+    if (openIndex === index) {
+      setOpenIndex(null); // Close the accordion if it's already open
+    } else {
+      setOpenIndex(index); // Open the clicked accordion item
+    }
+  };
   if (!service) {
     return <div>Service not found</div>; 
   }
@@ -120,18 +134,21 @@ const IndivdualServices = () => {
 
       <section className="header-content">
         <h1>{service.title}</h1>
-        <p>{service.description}</p>
+        <p id="socialpara">{service.description}</p>
         <div className="cta-button-container">
           <button className="cta-button1">ASK US HOW IT WORKS</button>
         </div>
       </section>
-
-      {/* <section className="dashboard-content">
+      <section className="dashboard-content">
       <div className="text-content">
         <h2>Get the best results for your business</h2>
         {paragraphs.map((para, index) => (
           <div key={index}>
-            <p className="subheading1" onClick={() => toggleAccordion(index)} style={{ cursor: 'pointer' }}>
+            <p
+              className="subheading1"
+              onClick={() => toggleAccordion(index)}
+              style={{ cursor: 'pointer' }}
+            >
               {para.title}
             </p>
             {openIndex === index && (
@@ -143,10 +160,10 @@ const IndivdualServices = () => {
         ))}
       </div>
 
-        <div className="image-content">
-          <img src={service.imageUrl} alt={`${service.title} Preview`} />
-        </div>
-      </section> */}
+      <div className="image-content">
+        <img src={service.imageUrl} alt={`${service.title} Preview`} />
+      </div>
+    </section>
       </div>
       <section className="display-ads-content">
         <div className="image-and-text">
