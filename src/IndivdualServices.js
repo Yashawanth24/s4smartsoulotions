@@ -126,7 +126,7 @@ const IndivdualServices = () => {
         </div>
       </section>
 
-      <section className="dashboard-content">
+      {/* <section className="dashboard-content">
       <div className="text-content">
         <h2>Get the best results for your business</h2>
         {paragraphs.map((para, index) => (
@@ -146,7 +146,7 @@ const IndivdualServices = () => {
         <div className="image-content">
           <img src={service.imageUrl} alt={`${service.title} Preview`} />
         </div>
-      </section>
+      </section> */}
       </div>
       <section className="display-ads-content">
         <div className="image-and-text">
