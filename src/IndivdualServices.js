@@ -142,7 +142,7 @@ const IndivdualServices = () => {
         <div className="cta-button-container mt-4 text-md-left">
           <button className="cta-button1">ASK US HOW IT WORKS</button>
         </div>
-      </div>
+      </div> 
       {/* Image content will appear second on mobile but beside the text on larger screens */}
       <div className="image-content col-12 col-md-6 order-2 order-md-2 text-center text-md-right">
         <img 

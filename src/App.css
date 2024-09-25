@@ -8,7 +8,7 @@
 .navbar {
   background-color: #000 !important;
   padding-top: 20px;
-  max-width: 1900px;
+  
 }
 /* * {
   outline: 1px solid red !important;
@@ -1591,9 +1591,9 @@ img {
     margin: 10px 0;
 
     border-radius: 10px;
-    top: 170px;
+    top: 230px;
     left: 150px;
-    height: 110px !important;
+    height: 160px !important;
 
   }
 
@@ -1735,6 +1735,7 @@ grid-row-gap: 24px;
     align-self: center;
     font-size: 10px;
     font-weight: 800;
+    text-align: center;
   }
 
   
