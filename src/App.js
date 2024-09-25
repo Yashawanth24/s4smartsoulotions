@@ -7,6 +7,8 @@ import FullSite from './FullSite';
 import ContactForm from './ContactForm';
 import Footer from './Footer';
 import IndivdualServices from './IndivdualServices';
+import TermsAndConditions from './Terms&condition';
+import PrivacyPolicy from './PrivacyPolicy';
 
 function App() {
   return (
@@ -17,7 +19,9 @@ function App() {
           <Route path="/" element={<FullSite />} />
           <Route path="/services" element={<ServicesSection />} />
           <Route path='/contact' element={<ContactForm />} />
-          <Route path='/services/:serviceId' element={<IndivdualServices />} /> {/* Dynamic Route */}
+          <Route path='/services/:serviceId' element={<IndivdualServices />} /> 
+          <Route path='/terms' element={<TermsAndConditions/>}/>
+          <Route path='/privacy' element={<PrivacyPolicy/>}/>
         </Routes>
         <Footer />
       </div>

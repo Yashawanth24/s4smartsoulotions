@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Main Section */}
+     
         <div className="col-4 footer-section">
           <h5>Main</h5>
           <ul className="footer-links">
@@ -25,12 +25,12 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Pages Section */}
+
         <div className="col-4 footer-section">
           <h5>Pages</h5>
           <ul className="footer-links">
             <li><a href="/contact" className="footer-link">Contact</a></li>
-            <li><a href="/terms" className="footer-link">Terms & Conditions</a></li>
+            <li><a href="terms" className="footer-link">Terms & Conditions</a></li>
             <li><a href="/privacy" className="footer-link">Privacy Policy</a></li>
           </ul>
         </div>

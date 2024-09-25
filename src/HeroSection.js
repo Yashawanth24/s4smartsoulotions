@@ -37,10 +37,10 @@ const HeroSection = () => {
 
 
         <div className="col-md-6 d-flex flex-column justify-content-center align-items-center text-start custom-text-section">
-          <h1 className="main-heading" style={{ fontWeight: 'bold', textAlign: 'left' , fontFamily:'Inter', display:'block', width:'450px', paddingRight:'20px'}}>
+          <h1 className="main-heading" style={{ fontWeight: 'bold' , fontFamily:'Inter', display:'block', paddingRight:'20px'}}>
             Unlock Your Business Potential With AI-Powered Solutions.
           </h1>
-          <p className="subheading" style={{ fontSize: '17px', maxWidth: '500px', marginBottom: '0', textAlign: 'left', display:'block', fontWeight:'100px',  width:'450px' }}>
+          <p className="subheading" style={{ fontSize: '17px', maxWidth: '450px', marginBottom: '0', textAlign: 'left', display:'block', fontWeight:'100px',  }}>
             Find, convert, and keep more customers with our growth marketing platform. We offer innovative technology and unparalleled expertise to move your business forward.
           </p>
         </div>
