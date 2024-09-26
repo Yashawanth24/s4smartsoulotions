@@ -131,58 +131,62 @@ const IndivdualServices = () => {
 
   return (
     <div>
-    <div className="social-ads-container">
-  <section className="header-content container">
-    <div className="row align-items-center">
-
-      <div className="text-content1 col-12 col-md-6 order-1 order-md-1">
-        <h1 className="display-4">{service.title}</h1>
-        <p className="lead">{service.description}</p>
-        <div className="cta-button-container text-md-left">
-        <Link className="nav-link px-3" to="/contact"> <button className="cta-button1">ASK US HOW IT WORKS</button> </Link> 
-        </div>
-      </div>
-
-     
-      <div className="image-content col-12 col-md-6 order-3 order-md-2 text-center text-md-right">
-        <img
-          src={service.imageUrl}
-          alt={`${service.title} Preview`}
-          className="img-fluid indivdualimg"
-          style={{ maxWidth: '100%', height: 'auto' }}
-        />
-      </div>
-    </div>
-  </section>
-
-  <section className="dashboard-content container">
-    <div className="row">
-      <div className="text-content1 col-md-12">
-        <h2 className="display-6">Get the best results for your business</h2>
-        {paragraphs.map((para, index) => (
-          <div key={index}>
-            <p
-              className="subheading1 lead"
-              onClick={() => toggleAccordion(index)}
-              style={{
-                cursor: 'pointer',
-                color: openIndex === index ? '#befb7c' : 'white',
-                fontWeight: 'bold',
-              }}
-            >
-              {para.title}
-            </p>
-            {openIndex === index && (
-              <div className="accordion-content">
-                <p className="info-text">{para.content}</p>
-              </div>
-            )}
+     <div className="social-ads-container">
+      {/* Header Section */}
+      <section className="header-content container">
+        <div className="row align-items-center">
+          {/* Left Text Content */}
+          <div className="text-content1 col-12 col-md-6 order-1 order-md-1">
+            <h1 className="display-4">{service.title}</h1>
+            <p className="lead">{service.description}</p>
+            <div className="cta-button-container text-md-left">
+              <Link className="nav-link px-3" to="/contact">
+                <button className="cta-button1">ASK US HOW IT WORKS</button>
+              </Link>
+            </div>
           </div>
-        ))}
-      </div>
+
+          {/* Right Image Content */}
+          <div className="image-content col-12 col-md-6 order-3 order-md-2 text-center text-md-right">
+            <img
+              src={service.imageUrl}
+              alt={`${service.title} Preview`}
+              className="img-fluid indivdualimg"
+              style={{ maxWidth: "100%", height: "auto" }}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Dashboard Section */}
+      <section className="dashboard-content container">
+        <div className="row">
+          <div className="text-content1 col-md-12">
+            <h2 className="display-6">Get the best results for your business</h2>
+            {paragraphs.map((para, index) => (
+              <div key={index}>
+                <p
+                  className="subheading1 lead"
+                  onClick={() => toggleAccordion(index)}
+                  style={{
+                    cursor: "pointer",
+                    color: openIndex === index ? "#befb7c" : "white",
+                    fontWeight: "bold"
+                  }}
+                >
+                  {para.title}
+                </p>
+                {openIndex === index && (
+                  <div className="accordion-content">
+                    <p className="info-text">{para.content}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
     </div>
-  </section>
-</div>
 
 
 
