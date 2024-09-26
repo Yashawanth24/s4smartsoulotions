@@ -162,7 +162,7 @@ const IndivdualServices = () => {
       <section className="dashboard-content container">
         <div className="row">
           <div className="text-content1 col-md-12">
-            <h2 className="display-6">Get the best results for your business</h2>
+  
             {paragraphs.map((para, index) => (
               <div key={index}>
                 <p
@@ -190,7 +190,7 @@ const IndivdualServices = () => {
 
 
 
-      <section className="display-ads-content">
+      <section className="display-ads-content container">
         <div className="image-and-text">
           <img
             src={service.keyfeaturesimage}
@@ -212,8 +212,10 @@ const IndivdualServices = () => {
       </section>
 
       {/* New Section to Display Uploaded Image */}
-      <section className="partner-recognition">
-        <div className="content-wrapper">
+      
+      <section className="partner-recognition ">
+      <div className="container">
+        <div className="content-wrapper ">
           <div className="text-content3">
             <h2>Recognized By Industry-Leading Partners</h2>
             <p>Our team is recognized for maximizing customer success and driving growth through high-performing campaigns.</p>
@@ -224,21 +226,37 @@ const IndivdualServices = () => {
             <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f1902766807ba75075b_meta-1.webp" alt="Meta Business Partner" />
           </div>
         </div>
-      </section>
-      <section>
-        <div className="premium-section">
-          <div className="">
-            <h4>Premium Solutions</h4>
-            <h1>Ready To Get Started? Connect With Us.</h1>
-            <Link to={"/contact"}>
-              <button className="cta-button">GET A DEMO</button>
-            </Link>
-          </div>
-          <div className="image-contentservice">
-            <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660e77ec2dcc2cf4136017d4_two_arrows.webp" alt="Premium Solutions Stars" className="premium-image" />
-          </div>
         </div>
       </section>
+      
+      <section>
+  <div className="premium-section">
+    <div className="container">
+      <div className="row align-items-center">
+        {/* Left Text Content */}
+        <div className="col-12 col-md-6 text-center text-md-left">
+          <h4>Premium Solutions</h4>
+          <h1>Ready To Get Started? Connect With Us.</h1>
+          <Link to={"/contact"}>
+            <button className="cta-button">GET A DEMO</button>
+          </Link>
+        </div>
+
+        {/* Right Image Content */}
+        <div className="col-12 col-md-6 text-center">
+          <div className="image-contentservice">
+            <img
+              src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660e77ec2dcc2cf4136017d4_two_arrows.webp"
+              alt="Premium Solutions Stars"
+              className="premium-image img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
     </div>
   );
 };

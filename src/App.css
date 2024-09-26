@@ -689,7 +689,7 @@ h5 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 00px;
 }
 
 /* Flexbox for 3 columns */
@@ -885,7 +885,7 @@ line-height: 52px;
 } */
 
 .contact-form-container {
-  padding: 50px;
+  padding: 50px 0px;
   background-color: #000000;
 }
 
@@ -1264,7 +1264,7 @@ img {
 .premium-section {
 
   background-image: url(https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660e78452b5715986bc8588c_cta-section-gradient.webp);
-  padding: 130px;
+  padding: 130px 0px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1322,7 +1322,7 @@ img {
 .terms-container {
   background-color: #000;
   color: #fff;
-  padding: 40px;
+  padding: 40px 0px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   text-align: left;
@@ -1370,7 +1370,7 @@ img {
 .privacy-container {
   background-color: #000;
   color: #fff;
-  padding: 40px;
+  padding: 40px 0px;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   text-align: left;
@@ -2098,7 +2098,7 @@ grid-row-gap: 24px;
   .image-and-text {
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 220px;
   }
 
   .display-ads-text {
@@ -2109,7 +2109,7 @@ grid-row-gap: 24px;
 /* Desktop styles (1024px and above) */
 @media only screen and (min-width: 1025px) {
   .social-ads-container {
-    padding: 40px;
+    padding: 40px 0px;
     gap: 40px;
   }
 
@@ -2158,7 +2158,7 @@ grid-row-gap: 24px;
   .image-and-text {
     flex-direction: row;
     align-items: center;
-    gap: 40px;
+    gap: 230px;
   }
 
   .image-and-text {

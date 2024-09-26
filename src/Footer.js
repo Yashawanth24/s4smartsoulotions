@@ -2,8 +2,8 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer-footer-top container-fluid">
-      <div className="footer-row">
+    <footer className="footer-footer-top  ">
+      <div className="footer-row container">
         {/* Logo Section */}
         <div className="col-4">
           <a href="/" className="logo-link-wrapper">
