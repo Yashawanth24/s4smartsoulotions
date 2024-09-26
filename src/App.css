@@ -262,16 +262,18 @@
 /* Header styling */
 
 .product {
-  background: #d7d6d6;
+  background: #e6edf5;
   padding-top: 100px;
   padding-bottom: 50px;
 }
 
 .product h1 {
-  font-size: 4.3rem;
-  line-height: 1;
+  font-size: 74px;
+  line-height: 85px;
   margin-bottom: 20px;
   color: #000;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
 }
 
 .product h6 {
@@ -284,15 +286,15 @@
 
 
 .product {
-  background: #d7d6d6;
+  background: #d8dee4;
 }
 
-.product h1 {
+/* .product h1 {
   font-size: 4.3rem;
   line-height: 1;
   margin-bottom: 20px;
   color: #000;
-}
+} */
 
 .product h6 {
   font-size: 1.3rem;
@@ -956,7 +958,9 @@ line-height: 52px;
   padding-top: 10px;
 
 }
-
+.producth1{
+  font-size: 75px;
+}
 .cta-button-container {
   display: flex;
   justify-content: flex-start;

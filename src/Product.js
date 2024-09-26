@@ -7,7 +7,7 @@ const Product = () => {
         <div className="row align-items-center">
           <div className="col-md-6 textcontant">
             <h6 className="text-uppercase">Products & Services</h6>
-            <h1 className="display-7 font-weight-bold">Built for you and your needs</h1>
+            <h1 className="producth1">Built for you and your needs</h1>
             <p className="lead">
               Be more efficient in your marketing with our all-in-one growth platform. 
               We’ll equip your business with the tools you need to succeed – and thrive.
