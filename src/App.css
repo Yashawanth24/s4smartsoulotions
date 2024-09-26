@@ -1058,6 +1058,7 @@ img {
   display: block;
   color: #fff;
   font-weight: 400;
+  max-width: 480px;
 }
 
 .image-content {
