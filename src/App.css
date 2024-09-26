@@ -1917,6 +1917,7 @@ grid-row-gap: 24px;
   margin: 0 auto;
 }
 
+
 /* Mobile styles (up to 600px wide) */
 @media only screen and (max-width: 600px) {
   .social-ads-container {
