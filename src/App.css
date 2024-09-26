@@ -1448,85 +1448,121 @@ img {
     color: #c1c0c0;
 }
 
+
+
 .about-us-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
   background-color: #000;
+  padding: 72px 0;
+  color: #fff;
 }
 
 .about-us-content {
   display: flex;
-  width: 90%;
-  max-width: 1200px;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .about-us-text {
   flex: 1;
-  color: #fff;
-  position: relative;
-  padding-right: 30px;
+  padding-right: 20px;
 }
 
 .about-us-heading {
-  font-size: 16px;
-  letter-spacing: 3px;
+  font-size: 14px;
   text-transform: uppercase;
-  color: #bbb;
+  color: #fff;
+  letter-spacing: 2px;
+  margin-bottom: 16px;
 }
 
 .about-us-title {
-  font-size: 100px;
+  font-size: 96px;
   font-weight: bold;
   margin: 0;
-  line-height: 0.9;
-}
-
-.about-us-subtitle {
-  font-size: 150px;
-  font-weight: bold;
-  margin: 0;
-  line-height: 0.9;
-  color: #ffffff;
-  position: relative;
-  
-  
 }
 
 .about-us-team {
-  position: absolute;
-  bottom: -17px;
-  left: 30px;
   display: flex;
-  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.about-us-subtitle {
+  font-size: 96px;
+  font-weight: bold;
+  margin-right: 20px;
+  -webkit-text-stroke: 2px #fff;
+  color: transparent;
+}
+
+.avatars-container {
+  display: flex;
 }
 
 .team-photo {
-  width: 50px;
-  height: 50px;
   border-radius: 50%;
-  border: 2px solid #00ff00;
-  bottom: -10px;
+  width: 64px;
+  height: 64px;
+  margin-left: -15px;
+  border: 2px solid #8ff142; 
 }
 
 .about-us-description {
+  margin-top: 20px; 
   font-size: 18px;
-  font-weight: 300;
+  color: #999; 
+  line-height: 1.6;
   max-width: 400px;
-  margin-top: 20px;
 }
 
 .about-us-image {
   flex: 1;
+  text-align: right;
 }
 
 .laptop-image {
-  max-width: 100%;
+  width: 540px;
   height: auto;
-  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .about-us-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-us-text {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .about-us-title,
+  .about-us-subtitle {
+    font-size: 64px;
+  }
+
+  .avatars-container {
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .about-us-description {
+    margin: 20px auto 0;
+    text-align: center;
+    max-width: 90%;
+  }
+
+  .about-us-image {
+    margin-top: 40px;
+  }
+
+  .laptop-image {
+    width: 90%;
+  }
 }
 
 @media only screen and (max-width: 768px) {

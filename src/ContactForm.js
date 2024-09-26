@@ -10,7 +10,8 @@ const ContactForm = () => {
   }
 
   return (
-    <div className="contact-form-container d-flex justify-content-center align-items-center min-vh-100 text-white">
+    <div className='contact-form-container' >
+    <div className=" d-flex justify-content-center align-items-center min-vh-100 text-white container">
       <div className="contact-form text-center">
         <h6 className="text-uppercase">Get in Touch</h6>
         <h1 className="display-6 font-weight-bold">CONTACT US</h1>
@@ -69,6 +70,7 @@ const ContactForm = () => {
           </button>
         </form>
       </div>
+    </div>
     </div>
   );
 };
