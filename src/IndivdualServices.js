@@ -132,61 +132,55 @@ const IndivdualServices = () => {
   return (
     <div>
       <div className="social-ads-container">
-        {/* First section for the social ad details */}
-        <section className="header-content container py-5">
-          <div className="row align-items-center">
-            {/* Text content will appear first on all screens */}
-            <div className="text-content col-12 col-md-6 order-1 order-md-1"> {/* Order 1 for both mobile and desktop */}
-              <h1 className="display-4">{service.title}</h1>
-              <p className="lead">{service.description}</p>
-              <div className="cta-button-container mt-4 text-md-left">
-                <button className="cta-button1">ASK US HOW IT WORKS</button>
-              </div>
-            </div>
-            {/* Image content will appear second on mobile but beside the text on larger screens */}
-            <div className="image-content col-12 col-md-6 order-2 order-md-2 text-center text-md-right">
-              <img
-                src={service.imageUrl}
-                alt={`${service.title} Preview`}
-                className="img-fluid"
-                style={{ maxWidth: '100%', height: 'auto' }} // Ensure the image doesn't overflow
-              />
-            </div>
-          </div>
-        </section>
-
-        {/* Second section for the dashboard content with accordion */}
-        <section className="dashboard-content container mt-5">
-          <div className="row">
-            <div className="text-content1 col-md-12"> {/* Full width content */}
-              <h2 className="display-6">Get the best results for your business</h2>
-              {paragraphs.map((para, index) => (
-                <div key={index}>
-                  <p
-                    className="subheading1 lead"
-                    onClick={() => toggleAccordion(index)}
-                    style={{
-                      cursor: 'pointer',
-                      color: openIndex === index ? '#befb7c' : 'white', 
-                      fontWeight: 'bold'
-                    }}
-                  >
-                    {para.title}
-                  </p>
-                  {openIndex === index && (
-                    <div className="accordion-content">
-                      <p className="info-text">{para.content}</p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
+  <section className="header-content container ">
+    <div className="row align-items-center">
+      <div className="text-content col-12 col-md-6 order-1 order-md-1">
+        <h1 className="display-4">{service.title}</h1>
+        <p className="lead">{service.description}</p>
+        <div className="cta-button-container text-md-left">
+          <button className="cta-button1">ASK US HOW IT WORKS</button>
+        </div>
       </div>
 
+      <div className="image-content col-12 col-md-6 order-3 order-md-2 text-center text-md-right">
+        <img
+          src={service.imageUrl}
+          alt={`${service.title} Preview`}
+          className="img-fluid indivdualimg"
+          style={{ maxWidth: '100%', height: 'auto' }}
+        />
+      </div>
+    </div>
+  </section>
 
-
+  <section className="dashboard-content container">
+    <div className="row">
+      <div className="text-content1 col-md-12">
+        <h2 className="display-6">Get the best results for your business</h2>
+        {paragraphs.map((para, index) => (
+          <div key={index}>
+            <p
+              className="subheading1 lead"
+              onClick={() => toggleAccordion(index)}
+              style={{
+                cursor: 'pointer',
+                color: openIndex === index ? '#befb7c' : 'white',
+                fontWeight: 'bold',
+              }}
+            >
+              {para.title}
+            </p>
+            {openIndex === index && (
+              <div className="accordion-content">
+                <p className="info-text">{para.content}</p>
+              </div>
+            )}
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+</div>
 
 
       <section className="display-ads-content">

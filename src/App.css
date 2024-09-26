@@ -762,7 +762,7 @@ h5 {
 .services-section {
   background-color: #000;
   text-align: center;
-  padding: 50px 20px;
+  /* padding: 50px 20px; */
   color: #fff;
   position: relative;
 }
@@ -772,7 +772,7 @@ h5 {
   flex-direction: column; /* Stack elements vertically */
   align-items: center; /* Horizontally center elements */
   justify-content: center; /* Vertically center the content */
-  max-width:1140px;
+  
   margin: 0 auto;
 }
 
@@ -910,7 +910,56 @@ line-height: 52px;
   background-color: #98e12c;
   color: #1a1919;
 }
+@media (max-width: 768px) {
+  .contact-form-container {
+    padding: 10px;
+  }
 
+  .contact-form {
+    padding: 20px;
+    max-width: 100%; /* Full width on smaller screens */
+  }
+
+  .contact-form h1 {
+    font-size: 28px;
+  }
+
+  .contact-form .btn {
+    width: 100%; /* Full-width button */
+    padding: 10px;
+  }
+  .services-description{
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 576px) {
+  .contact-form h1 {
+    font-size: 24px;
+  }
+
+  .contact-form h6 {
+    font-size: 14px;
+  }
+
+  .contact-form .form-control {
+    font-size: 14px;
+    padding: 10px 60px;
+  }
+
+  .contact-form .btn {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .contact-form-container {
+    padding: 5px;
+  }
+
+  .contact-form {
+    padding: 15px;
+  }
+}
 .thankform {
   color: rgb(14, 13, 13);
   font-size: 4rem;
@@ -1906,14 +1955,35 @@ grid-row-gap: 24px;
       font-size: 14px;
       line-height: 1.4;
       margin-left: 0;
-      text-align: center !important;
+      text-align: left !important;
     }
   }
   @media (max-width: 480px){
     #socialpara{
       text-align: center;
     }
+    .indivdualimg{
+  max-width: 100%;
+    }
+    .image-content img {
+      max-width: 100%;
+    }
   }
+  @media (max-width: 768px) {
+    .image-content {
+      order: 4 !important; /* Move the image below accordion on mobile */
+      margin-top: 20px;
+    }
+    
+    .text-content {
+      order: 1 !important; /* Ensure the text-content comes first */
+    }
+  
+    .cta-button-container {
+      text-align: center !important; /* Center button for mobile view */
+    }
+  }
+  
   .cta-button1 {
     padding: 8px 17px;
     width: 100%; /* Button takes up the full width of its column */
@@ -2044,5 +2114,56 @@ grid-row-gap: 24px;
   .display-ads-text {
     text-align: left;
     margin-left: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .header-content {
+    text-align: center;
+  }
+
+  .cta-button-container {
+    text-align: center;
+  }
+
+  .image-content {
+    margin-top: 20px;
+    order: 2; /* Change the order to bring the image below the text */
+  }
+
+  .image-content img {
+    width: 80%; /* Reduce the size of the image */
+    margin: 0 auto;
+  }
+}
+
+/* Media queries for mobile view (max-width: 576px) */
+@media (max-width: 576px) {
+  .header-content {
+    padding: 13px 10px;
+  }
+
+  .cta-button1 {
+    width: 100%; /* Full width button */
+    padding: 12px;
+  }
+
+  .image-content img {
+    width: 100%; /* Full width image */
+  }
+
+  .dashboard-content {
+    padding: 15px 10px;
+  }
+
+  .text-content1 {
+    text-align: left;
+  }
+
+  .subheading1 {
+    font-size: 18px;
+  }
+
+  .info-text {
+    font-size: 14px;
   }
 }

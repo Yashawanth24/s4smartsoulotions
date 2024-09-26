@@ -43,7 +43,7 @@ const Header = () => {
               </li>
             </ul>
           </div>
-          <a href="#" className="btn get-started-btn">Get Started →</a>
+          <a href="/contact" className="btn get-started-btn">Get Started →</a>
         </div>
       </nav>
 
