@@ -147,7 +147,7 @@ const IndivdualServices = () => {
           </div>
 
           {/* Right Image Content */}
-          <div className="image-content col-12 col-md-6 order-3 order-md-2 text-center text-md-right">
+          <div className="image-content3 col-12 col-md-6 order-3 order-md-2 text-center text-md-right">
             <img
               src={service.imageUrl}
               alt={`${service.title} Preview`}
@@ -190,28 +190,32 @@ const IndivdualServices = () => {
 
 
 
-      <section className="display-ads-content container">
-        <div className="image-and-text">
-          <img
-            src={service.keyfeaturesimage}
-            alt="Maximize Your ROI With Display Ads"
-            className="display-ads-image"
-          />
-          <div className="display-ads-text">
-            <h3>{service.h3}</h3>
-            <h2>Maximize Your ROI With Display Ads</h2>
-            <ul>
-              <li>Take advantage of goal-based display ad management and targeting</li>
-              <li>Use site and search retargeting to increase conversion rates</li>
-              <li>Reach users where they are in real time with geofencing</li>
-              <li>Replicate your best customers with lookalike audiences</li>
-              <li>Explore a range of services for more effective display creative</li>
-            </ul>
-          </div>
-        </div>
-      </section>
+    <section className="display-ads-content container">
+  <div className="row align-items-center" style={{ marginTop: '120px', background: '#ffffff' }}>
+    <div className="col-md-6 d-flex justify-content-center">
+      <img
+        src={service.keyfeaturesimage}
+        alt="Maximize Your ROI With Display Ads"
+        className="display-ads-image"
+        style={{ maxWidth: '400px', height: 'auto' }}
+      />
+    </div>
+    <div className="col-md-6 display-ads-text">
+      <h3>{service.h3}</h3>
+      <h2>Maximize Your ROI With Display Ads</h2>
+      <ul>
+        <li>Take advantage of goal-based display ad management and targeting</li>
+        <li>Use site and search retargeting to increase conversion rates</li>
+        <li>Reach users where they are in real time with geofencing</li>
+        <li>Replicate your best customers with lookalike audiences</li>
+        <li>Explore a range of services for more effective display creative</li>
+      </ul>
+    </div>
+  </div>
+</section>
 
-      {/* New Section to Display Uploaded Image */}
+
+
       
       <section className="partner-recognition ">
       <div className="container">

@@ -19,7 +19,7 @@ const Product = () => {
               alt="Icon"
               className="img-fluid" 
               id="productimg"
-              style={{ maxWidth: '360px' }} 
+              style={{ maxWidth: '340px' }} 
             />
           </div>
         </div>
