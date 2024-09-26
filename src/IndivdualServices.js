@@ -167,7 +167,7 @@ const IndivdualServices = () => {
                     onClick={() => toggleAccordion(index)}
                     style={{
                       cursor: 'pointer',
-                      color: openIndex === index ? 'green' : 'white', // Green when active
+                      color: openIndex === index ? '#befb7c' : 'white', 
                       fontWeight: 'bold'
                     }}
                   >
