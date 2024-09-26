@@ -108,7 +108,7 @@ const servicesData = {
 const IndivdualServices = () => {
   const { serviceId } = useParams();
   const service = servicesData[serviceId];
-  const [openIndex, setOpenIndex] = useState(0); // Set the first accordion open by default
+  const [openIndex, setOpenIndex] = useState(0);
 
   const paragraphs = [
     { title: 'What is the best way to improve my business?', content: 'The best way is to focus on customer satisfaction and efficient processes.' },
@@ -119,9 +119,9 @@ const IndivdualServices = () => {
 
   const toggleAccordion = (index) => {
     if (openIndex === index) {
-      setOpenIndex(null); // Close the accordion if clicked again
+      setOpenIndex(null); 
     } else {
-      setOpenIndex(index); // Open the clicked accordion
+      setOpenIndex(index); 
     }
   };
 
@@ -131,17 +131,19 @@ const IndivdualServices = () => {
 
   return (
     <div>
-      <div className="social-ads-container">
-  <section className="header-content container ">
+    <div className="social-ads-container">
+  <section className="header-content container">
     <div className="row align-items-center">
-      <div className="text-content col-12 col-md-6 order-1 order-md-1">
+
+      <div className="text-content1 col-12 col-md-6 order-1 order-md-1">
         <h1 className="display-4">{service.title}</h1>
         <p className="lead">{service.description}</p>
         <div className="cta-button-container text-md-left">
-          <button className="cta-button1">ASK US HOW IT WORKS</button>
+        <Link className="nav-link px-3" to="/contact"> <button className="cta-button1">ASK US HOW IT WORKS</button> </Link> 
         </div>
       </div>
 
+     
       <div className="image-content col-12 col-md-6 order-3 order-md-2 text-center text-md-right">
         <img
           src={service.imageUrl}
@@ -183,6 +185,7 @@ const IndivdualServices = () => {
 </div>
 
 
+
       <section className="display-ads-content">
         <div className="image-and-text">
           <img
@@ -220,7 +223,7 @@ const IndivdualServices = () => {
       </section>
       <section>
         <div className="premium-section">
-          <div className="text-content">
+          <div className="">
             <h4>Premium Solutions</h4>
             <h1>Ready To Get Started? Connect With Us.</h1>
             <Link to={"/contact"}>
