@@ -3,7 +3,7 @@ import React from 'react';
 const HeroSection = () => {
   return (
     <div className="container-fluid text-white p-5" id="body" style={{ backgroundColor: 'black', paddingBottom:'60px' }}>
-      <div className="row mt-5">
+      <div className="row ">
         <div className="col-md-1"></div>
         <div className="col-md-5 position-relative d-flex justify-content-start align-items-start rounded-lg image-container">
   <img

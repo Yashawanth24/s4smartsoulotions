@@ -9,6 +9,7 @@ import Footer from './Footer';
 import IndivdualServices from './IndivdualServices';
 import TermsAndConditions from './Terms&condition';
 import PrivacyPolicy from './PrivacyPolicy';
+import AboutUs from './AboutUs';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path='/services/:serviceId' element={<IndivdualServices />} /> 
           <Route path='/terms' element={<TermsAndConditions/>}/>
           <Route path='/privacy' element={<PrivacyPolicy/>}/>
+          <Route path='/about' element={<AboutUs/>}/>
         </Routes>
         <Footer />
       </div>

@@ -1294,6 +1294,88 @@ img {
     line-height: 27px;
     color: #c1c0c0;
 }
+
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+}
+
+.about-us-content {
+  display: flex;
+  width: 90%;
+  max-width: 1200px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-us-text {
+  flex: 1;
+  color: #fff;
+  position: relative;
+  padding-right: 30px;
+}
+
+.about-us-heading {
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #bbb;
+}
+
+.about-us-title {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 0.9;
+}
+
+.about-us-subtitle {
+  font-size: 150px;
+  font-weight: bold;
+  margin: 0;
+  line-height: 0.9;
+  color: #ffffff;
+  position: relative;
+  
+  
+}
+
+.about-us-team {
+  position: absolute;
+  bottom: -17px;
+  left: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.team-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #00ff00;
+  bottom: -10px;
+}
+
+.about-us-description {
+  font-size: 18px;
+  font-weight: 300;
+  max-width: 400px;
+  margin-top: 20px;
+}
+
+.about-us-image {
+  flex: 1;
+}
+
+.laptop-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
 @media only screen and (max-width: 768px) {
 
 
@@ -1537,7 +1619,7 @@ img {
   }
 
   .row {
-    flex-direction: column-reverse;
+    flex-direction: column;
    
   }
 
@@ -1581,7 +1663,7 @@ img {
     max-width: 80%;
     height: 180px !important;
     border-radius: 10px;
-    top: 23px;
+    top: 420px;
     left: 40px;
 
   }
@@ -1591,7 +1673,7 @@ img {
     margin: 10px 0;
 
     border-radius: 10px;
-    top: 230px;
+    top: 620px;
     left: 150px;
     height: 160px !important;
 
