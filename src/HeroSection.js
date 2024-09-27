@@ -25,7 +25,7 @@ const HeroSection = () => {
     id='moving2'
     style={{
       maxWidth: '44%',
-      right: '32%',
+      right: '27%',
       bottom: '-10%',
     
       transform: 'rotate(20deg)',
