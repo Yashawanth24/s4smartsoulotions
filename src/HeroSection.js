@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div className="container-fluid text-white p-5" id="body" style={{ backgroundColor: 'black', paddingBottom:'60px' }}>
       <div className="row ">
         <div className="col-md-1"></div>
-        <div className="col-md-5 position-relative d-flex justify-content-start align-items-start rounded-lg image-container">
+        <div className="col-md-5 position-relative d-flex justify-content-start align-items-start rounded-lg image-container1">
   <img
     src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707340_Free_4_Photorealistic_Folders_Mockup-p-500.jpg"
     alt="Illustration"
