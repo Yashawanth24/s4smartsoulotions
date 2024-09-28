@@ -1,7 +1,7 @@
 #body {
   background-color: #000;
   color: #fff;
-  padding-top: 120px !important;
+  padding-top: 0px !important;
   padding-bottom: 100px !important;
 }
 
@@ -1874,6 +1874,100 @@ h1 {
 
 .social-icons a:hover {
   color: #0f0; /* Hover color for icons */
+}
+.section {
+  opacity: 1;
+  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
+  transform-style: preserve-3d;
+}
+
+.w-layout-blockcontainer {
+  padding: 144px 0px;
+  overflow: hidden;
+}
+
+.awards-title-wrapper {
+  text-align: center;
+}
+
+.awards-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.awards-card {
+  grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    border-style: solid;
+    border-width: 0 0 1px;
+    border-color: #8ff142;
+    background-color: #000;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 128px;
+    min-height: 128px;
+    max-height: 128px;
+    padding: 32px;
+    display: flex;
+    position: sticky;
+    top: 0;
+}
+
+.awards-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  background-color: #b3ff33;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.text-wrapper {
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 240px;
+  display: flex;
+}
+
+.awards-text-wrapper h4 {
+  color: var(--light-black-color);
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Inter, sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+.awards-text-wrapper p {
+  font-size: 14px;
+  color: #b3ff33;
+  margin-top: 8px;
+}
+.awards-text-wrapper {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column layout */
+  grid-gap: 8px; /* Space between rows */
+  text-align: left;
+  max-width: 360px;
+}
+
+.text-wrapperA{
+  max-width: 240px;
+  text-align: left;
+  
+}
+.awardyear{
+  color: #8ff142;
+}
+.space-64px, .space-112px {
+  height: 64px;
 }
 
 /* Responsive Design */

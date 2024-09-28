@@ -36,6 +36,12 @@ const AboutUs = () => {
       },
     },
   ];
+  const awardsData = [
+    { year: '2014', title: 'THE RED DOT', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { year: '2016', title: 'CSS DESIGN', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { year: '2019', title: 'AWWWARDS', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { year: '2023', title: 'THE WEBBY', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' }
+  ];
 
   return (
     <div className="about-us-container ">
@@ -256,7 +262,32 @@ const AboutUs = () => {
           </div>
         </div>
       </div>
-
+      <section className="section slide-up-animation container">
+      <div className="w-layout-blockcontainer container padding-144px overflow w-container ">
+        <div className="awards-title-wrapper">
+          <h1>OUR AWARDS</h1>
+        </div>
+        <div className="space-64px"></div>
+        <div className="awards-wrapper">
+          {awardsData.map((award, index) => (
+            <div key={index} className="awards-card">
+              <div className="awards-icon-wrapper">
+               <img src='https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707325_Awards-Icon.svg'/>
+              </div>
+              <div className="awards-text-wrapper">
+                <h4>{award.title}</h4>
+                
+              </div>
+              <div className='text-wrapperA'>
+              <p className='awardyear'>{award.year}</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <div className="space-112px"></div>
+      </div>
+    </section>
 
     </div>
     </div>
