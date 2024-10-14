@@ -12,7 +12,6 @@ const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(null);
 
-
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -21,22 +20,21 @@ const ContactForm = () => {
     }));
   };
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
-  
+    
     emailjs
       .send(
-        'service_pln3ih9',
-        'template_u71vpr7',
+        'service_pln3ih9',               
+        'template_u71vpr7',              
         {
           name: formData.name,
           email: formData.email,
           phone: formData.phone,
           message: formData.message,
         },
-        'BGm1KxPNzljTNcisk'
+        'BGm1KxPNzljTNcisk'               
       )
       .then(
         (result) => {
@@ -94,7 +92,7 @@ const ContactForm = () => {
                 type="tel"
                 name="phone"
                 className="form-control bg-dark text-white"
-                placeholder="(123) - 456 - 789"
+                placeholder="(123) 456-789"
                 value={formData.phone}
                 onChange={handleChange}
                 required
