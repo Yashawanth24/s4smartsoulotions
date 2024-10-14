@@ -272,7 +272,7 @@ const AboutUs = () => {
           {awardsData.map((award, index) => (
             <div key={index} className="awards-card">
               <div className="awards-icon-wrapper">
-               <img src='https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707325_Awards-Icon.svg'/>
+               <img src='https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707325_Awards-Icon.svg' alt='about'/>
               </div>
               <div className="awards-text-wrapper">
                 <h4>{award.title}</h4>
