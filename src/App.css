@@ -1,7 +1,7 @@
 #body {
   background-color: #000;
   color: #fff;
-  padding-top: 0px !important;
+  padding-top: 120px !important;
   padding-bottom: 100px !important;
 }
 
@@ -1875,11 +1875,7 @@ h1 {
 .social-icons a:hover {
   color: #0f0; /* Hover color for icons */
 }
-.section {
-  opacity: 1;
-  transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg);
-  transform-style: preserve-3d;
-}
+
 
 .w-layout-blockcontainer {
   padding: 144px 0px;
@@ -2924,5 +2920,104 @@ grid-row-gap: 24px;
   }
   .about-us-team{
     justify-content: space-evenly;
+  }
+  #body{
+    padding-top: 10px !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+
+  .w-layout-blockcontainer {
+    padding: 64px 0px; /* Further reduce padding for mobile */
+  }
+
+  .awards-wrapper {
+    gap: 16px; /* Reduce the gap between cards */
+  }
+
+  .awards-card {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: flex-start;
+    height: auto;
+    padding: 16px; /* Reduce padding */
+  }
+
+  .awards-icon-wrapper {
+    width: 24px; /* Make the icon smaller */
+    height: 24px;
+    margin-right: 12px;
+    margin-bottom: 12px; /* Add spacing below the icon */
+  }
+
+  .awards-text-wrapper h4 {
+    font-size: 28px; /* Smaller title size for mobile */
+    line-height: 32px;
+  }
+
+  .awards-text-wrapper p {
+    font-size: 12px; /* Smaller description */
+  }
+
+  .text-wrapper, .text-wrapperA {
+    max-width: 180px; /* Reduce max-width for mobile devices */
+  }
+
+  .space-64px {
+    height: 24px; /* Reduce spacing */
+  }
+
+  .space-112px {
+    height: 32px;
+  }
+
+  .awards-title-wrapper h1 {
+    font-size: 36px; /* Reduce the title size */
+    line-height: 44px;
+  }
+}
+
+/* Small Mobile Screens (480px and below) */
+@media only screen and (max-width: 480px) {
+
+  .awards-wrapper {
+    gap: 12px; /* Smaller gap for small mobile screens */
+  }
+
+  .awards-card {
+    padding: 12px;
+    border-width: 0 0 1px; /* Keep border but adjust spacing */
+  }
+
+  .awards-icon-wrapper {
+    width: 20px;
+    height: 20px; /* Reduce size even further */
+    margin-bottom: 8px;
+  }
+
+  .awards-text-wrapper h4 {
+    font-size: 24px; /* Smaller size to avoid overflow */
+    line-height: 28px;
+  }
+
+  .awards-text-wrapper p {
+    font-size: 10px; /* Further reduce font size for mobile */
+  }
+
+  .text-wrapper, .text-wrapperA {
+    max-width: 160px; /* Reduce max-width to prevent overflow */
+  }
+
+  .w-layout-blockcontainer {
+    padding: 48px 0px; /* Reduce padding for small mobile screens */
+  }
+
+  .space-64px, .space-112px {
+    height: 16px; /* Reduce spacing significantly */
+  }
+  .statistics{
+    gap: 24px;
+  }
+  .space-122px {
+    min-height: 40px;
   }
 }

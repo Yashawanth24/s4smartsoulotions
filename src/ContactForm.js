@@ -12,7 +12,7 @@ const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
   const [error, setError] = useState(null);
 
-  // Handle form input change
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -21,11 +21,11 @@ const ContactForm = () => {
     }));
   };
 
-  // Handle form submission
+
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    // Replace YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, and YOUR_USER_ID with your actual values from EmailJS
+  
     emailjs
       .send(
         'service_pln3ih9',
@@ -41,7 +41,7 @@ const ContactForm = () => {
       .then(
         (result) => {
           console.log(result.text);
-          setSubmitted(true); // Form was successfully submitted
+          setSubmitted(true);
         },
         (error) => {
           console.log(error.text);
