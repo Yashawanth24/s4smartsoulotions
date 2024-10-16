@@ -2433,8 +2433,7 @@ h1 {
     justify-content: center;
     /* Center the image */
   }
-}
-@media (max-width: 769px) and (min-width: 479px){
+
   .moving-image2 {
     max-width: 100%;
     margin: 10px 0;
