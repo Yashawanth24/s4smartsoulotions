@@ -3173,3 +3173,77 @@ h1 {
     min-height: 40px;
   }
 }
+/* For larger screens (up to 980px) */
+@media (max-width: 980px) {
+  #body {
+    min-height: 100vh; /* Ensure the body covers at least 100% of the viewport height */
+    height: auto; /* Let the content define height, and it adjusts based on content */
+  }
+
+  .moving-image2 {
+    max-width: 80%;
+    height: 180px !important;
+    border-radius: 10px;
+    top: 420px;
+    left: 40px;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .moving-image1 {
+    max-width: 80%;
+    height: 160px !important;
+    border-radius: 10px;
+    top: 620px;
+    left: 90px;
+    padding-top: 10px;
+    position: relative;
+  }
+}
+
+/* For screens up to 768px (tablets/smaller devices) */
+@media (max-width: 768px) {
+  #body {
+    min-height: 120vh; /* Minimum height set for content to fit, can be adjusted */
+    height: auto; /* Again, let content define height */
+  }
+
+  .moving-image2 {
+    max-width: 80%;
+    height: 180px !important;
+    border-radius: 10px;
+    top: 450px;
+    left: 40px;
+    margin-top: 20px;
+    position: relative;
+  }
+
+  .moving-image1 {
+    max-width: 80%;
+    height: 160px !important;
+    border-radius: 10px;
+    top: 660px;
+    left: 90px;
+    padding-top: 10px;
+    position: relative;
+  }
+}
+
+/* For mobile screens (up to 479px) */
+@media (max-width: 479px) {
+  #body {
+    min-height: 100vh; /* Ensure the background spans the entire viewport */
+    height: auto; /* Dynamic height for content */
+  }
+
+  .moving-image2, .moving-image1 {
+    max-width: 90%; /* Full width images on mobile */
+    height: auto; /* Adjust height dynamically based on content */
+    top: unset; /* Remove fixed positioning */
+    left: unset; /* Remove fixed positioning */
+    margin-top: 20px;
+    position: relative;
+    transform: none; /* No rotation for small screens */
+    border-radius: 10px;
+  }
+}
