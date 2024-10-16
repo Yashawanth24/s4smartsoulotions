@@ -2381,6 +2381,13 @@ h1 {
         font-family: Inter, sans-serif;
         text-align: start;
   }
+  .left-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #000;
+    padding: 10px 0;
+  }
   .left-section p{
     text-align: start;
     color: var(--black);

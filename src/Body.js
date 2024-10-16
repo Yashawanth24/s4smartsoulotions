@@ -5,9 +5,9 @@ const Body = () => {
     <div className="container-fluid pb-2">
       <div className="row bodycon">
         {/* Left Section */}
-        <div className="left-section col-md-6 item">
+        <div className="left-section col-md-6 ">
           <h1>Elevate Your Business with S4 Smart Solutions</h1>
-          <p>
+          <p >
             With 20+ years of experience, our proven record of innovation and
             performance in the digital marketing industry will help you drive
             results.
