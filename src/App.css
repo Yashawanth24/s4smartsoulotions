@@ -2331,7 +2331,6 @@ h1 {
 @media (max-width: 980px) {
   #body {
     min-height: 100vh;
-    height: auto;
   }
 
   .row {
@@ -2460,15 +2459,13 @@ h1 {
   }
 
   #body {
-    min-height: 110vh;
-    height: auto;
+    min-height: 120vh;
   }
 }
 @media (max-width: 668px){
   
   #body {
     min-height: 120vh;
-    height: auto;
   }
 }
 
