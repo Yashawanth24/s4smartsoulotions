@@ -2052,6 +2052,7 @@ h1 {
 
   .image-container1 {
     margin-bottom: 10px;
+    margin-top: 10px;
   }
 
 
@@ -2286,7 +2287,8 @@ h1 {
 
   .image-container1 {
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px !important;
+    
   }
 
   /* .image-container img {
@@ -2308,6 +2310,7 @@ h1 {
     border-radius: 10px;
     top: 420px;
     left: 40px;
+    margin-top: 20px;
 
   }
 
@@ -2317,9 +2320,9 @@ h1 {
 
     border-radius: 10px;
     top: 620px;
-    left: 150px;
+    left: 90px;
     height: 160px !important;
-
+  padding-top: 10px;
   }
 
   .moving-image {
@@ -2928,25 +2931,25 @@ grid-row-gap: 24px;
 @media only screen and (max-width: 600px) {
 
   .w-layout-blockcontainer {
-    padding: 64px 0px; /* Further reduce padding for mobile */
+    padding: 64px 0px; 
   }
 
   .awards-wrapper {
-    gap: 16px; /* Reduce the gap between cards */
+    gap: 16px;
   }
 
   .awards-card {
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column; 
     align-items: flex-start;
     height: auto;
-    padding: 16px; /* Reduce padding */
+    padding: 16px; 
   }
 
   .awards-icon-wrapper {
-    width: 24px; /* Make the icon smaller */
+    width: 24px; 
     height: 24px;
     margin-right: 12px;
-    margin-bottom: 12px; /* Add spacing below the icon */
+    margin-bottom: 12px; 
   }
 
   .awards-text-wrapper h4 {
