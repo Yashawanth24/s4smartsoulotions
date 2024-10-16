@@ -2465,7 +2465,7 @@ h1 {
 @media (max-width: 668px){
   
   #body {
-    min-height: 120vh;
+    min-height: 100vh;
   }
 }
 
