@@ -2385,6 +2385,9 @@ h1 {
     height: 160px !important;
   padding-top: 10px;
   }
+  #body {
+    height: 100vh;
+}
 }
 
 @media (max-width:479px) {
@@ -2394,9 +2397,7 @@ h1 {
   .footer-logo{
 grid-row-gap: 24px;
   }
-  #body {
-    height: 100vh;
-}
+ 
 }
 
 /* General styles */
