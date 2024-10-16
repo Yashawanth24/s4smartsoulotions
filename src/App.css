@@ -2462,6 +2462,12 @@ h1 {
     height: 120vh;
   }
 }
+@media (max-width: 668px){
+  
+  #body {
+    height: 120vh;
+  }
+}
 
 @media (max-width:479px) {
   .footer-logo {
