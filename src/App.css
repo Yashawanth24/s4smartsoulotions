@@ -2479,6 +2479,12 @@ h1 {
   }
 
 }
+@media (max-width: 479px) {
+  #body {
+    height: 100vh;
+    
+  }
+}
 
 /* General styles */
 .social-ads-container {
