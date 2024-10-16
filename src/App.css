@@ -2477,6 +2477,9 @@ h1 {
   .footer-logo {
     grid-row-gap: 24px;
   }
+  #body{
+    height: calc(var(--vh, 1vh) * 100);
+  }
 
 }
 
