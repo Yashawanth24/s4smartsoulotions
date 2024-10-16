@@ -273,7 +273,7 @@ const IndivdualServices = () => {
           <div className="image-row">
             <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f1943c70caa5b6aa6f0_PremierBadgeClickable.svg" alt="Google Premier Partner" />
             <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f196a7ef282a621d82a_2024-MSA-Partner-Program-Badge-Elite-2048x706-p-1600.webp" alt="Microsoft Advertising Elite Partner 2024" />
-            <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f1902766807ba75075b_meta-1.webp" alt="Meta Business Partner" />
+            <img src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660d1f1902766807ba75075b_meta-1.webp" alt="Meta Business Partner" id="metaimg" />
           </div>
         </div>
         </div>
@@ -285,8 +285,8 @@ const IndivdualServices = () => {
       <div className="row align-items-center">
         {/* Left Text Content */}
         <div className="col-12 col-md-6 text-center text-md-left">
-          <h4>Premium Solutions</h4>
-          <h1>Ready To Get Started? Connect With Us.</h1>
+          <h4 id="premh4">Premium Solutions</h4>
+          <h1 id="prem1">Ready To Get Started? Connect With Us.</h1>
           <Link to={"/contact"}>
             <button className="cta-button">GET A DEMO</button>
           </Link>

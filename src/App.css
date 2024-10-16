@@ -219,6 +219,13 @@
   position: relative;
   margin-bottom: -80px;
 }
+.leadp{
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  font-family: Archivo, sans-serif;
+}
 
 .image-container1 img {
   width: 100%;
@@ -789,7 +796,22 @@ h5 {
 
   margin: 0 auto;
 }
-
+#premh4{
+  font-size: 20px;
+  font-family: Inter, sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-align: start;
+}
+#prem1{
+  padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 55px;
+    text-transform: capitalize;
+    text-align: start;
+    padding-top: 10px;
+}
 
 .services-title {
   font-size: 1rem;
@@ -2193,8 +2215,15 @@ h1 {
   .display-ads-text h2 {
     padding-top: 30px;
     padding-top: 20px;
+    font-size: 32px;
+        line-height: 40px;
   }
-
+.text-content3 h2{
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: start;
+}
   .services-heading {
     line-height: 1;
   }
@@ -2314,10 +2343,23 @@ h1 {
   .text-content3 {
     padding-right: 0;
     /* Remove right padding for mobile */
-    text-align: center;
+    text-align: start;
     /* Center text */
   }
-
+  #metaimg{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+  #prem1{
+  padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    text-transform: capitalize;
+    text-align: start;
+  }
   .image-row {
     justify-content: center;
     /* Center images */
@@ -2332,7 +2374,35 @@ h1 {
   #body {
     height: 100vh;
   }
+  .left-section h1{
+    font-size: 35px;
+        line-height: 45px;
+        font-weight: 600;
+        font-family: Inter, sans-serif;
+        text-align: start;
+  }
+  .left-section p{
+    text-align: start;
+    color: var(--black);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    font-family: Archivo, sans-serif;
+  }
 
+  .product h6{
+    color: var(--black);
+   
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 35px;
+    font-family: Inter, sans-serif;
+  }
+  .product h1{
+  font-size: 35px;
+        line-height: 45px;
+        font-family: Inter, sans-serif;
+  }
   .row {
     flex-direction: column;
 
@@ -2423,7 +2493,7 @@ h1 {
   }
 
   .premium-image {
-    max-width: 200px;
+    padding-top: 20px;
     /* Smaller image size for mobile */
     margin-left: 0;
     /* Remove left margin */
@@ -2714,7 +2784,7 @@ h1 {
     
   } */
   .text-content1 {
-    margin-top: -200PX;
+    margin-top: -60PX;
   }
 
   .image-and-text {

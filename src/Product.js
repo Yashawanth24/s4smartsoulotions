@@ -8,7 +8,7 @@ const Product = () => {
           <div className="col-md-6 textcontant">
             <h6 className="text-uppercase">Products & Services</h6>
             <h1 className="producth1">Built for you and your needs</h1>
-            <p className="lead">
+            <p className="leadp">
               Be more efficient in your marketing with our all-in-one growth platform. 
               We’ll equip your business with the tools you need to succeed – and thrive.
             </p>
@@ -201,7 +201,7 @@ const Product = () => {
               <div className="card p-4 mb-4 shadow-sm">
                 <div className="d-flex align-items-center">
                   <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66289cc0cedfaf4f4a0f4b29_display-advertising-services-features-2-p-500.webp" 
+                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e126d1791da61ffc87f743_why-majento-601x514-p-500.webp" 
                     alt="Social Ads" 
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }} 
@@ -223,7 +223,7 @@ const Product = () => {
               <div className="card p-4 mb-4 shadow-sm">
                 <div className="d-flex align-items-center">
                   <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/660c0f4206348c58b1365a69_social-media-advertising-services-features-p-500.webp" 
+                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e126d1aa91640cac1e7315_web-mobile-intro-p-500.webp" 
                     alt="Social Ads" 
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }}  
@@ -241,11 +241,11 @@ const Product = () => {
               </Link>
             </div>
             <div className="col-md-6">
-            <Link to="/services/appliactiondevelopment" className="text-decoration-none">
+            <Link to="/services/applicationdevelopmentservices" className="text-decoration-none">
               <div className="card p-4 mb-4 shadow-sm">
                 <div className="d-flex align-items-center">
                   <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628ec25085dc1231bf1fa32_ppc-management-services-features-p-500.webp" 
+                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbcda0bda7b3f2d5285b_ads-mobile-p-500.webp" 
                     alt="Social Ads" 
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }} 
@@ -256,7 +256,7 @@ const Product = () => {
                 At S4 Smart Solutions, we understand that every business has unique needs. Our custom application development services are designed to create innovative software solutions that drive
                 efficiency and growth. From mobile apps to complex enterprise solutions, we have you covered.
                 </p>
-                <a href="/services/appliactiondevelopment" className="font-weight-bold text-uppercase">
+                <a href="/services/applicationdevelopmentservices" className="font-weight-bold text-uppercase">
                   Grow Your Business &rarr;
                 </a>
               </div>
@@ -267,7 +267,7 @@ const Product = () => {
               <div className="card p-4 mb-4 shadow-sm">
                 <div className="d-flex align-items-center">
                   <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628f798dfe0688fee2bd632_local-business-listing-management-tool-features-p-500.webp" 
+                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbcf9c63d095a2ee69a2_saleforce-development-services.jpg" 
                     alt="Social Ads" 
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }} 
@@ -290,7 +290,7 @@ const Product = () => {
               <div className="card p-4 mb-4 shadow-sm">
                 <div className="d-flex align-items-center">
                   <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628f7bb1312e259fc83eda0_small-business-website-builder-site-design-desktop-mobile-p-500.webp" 
+                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbce4b25ba70add3718e_oracle-s-p-500.png" 
                     alt="Social Ads" 
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }} 
@@ -312,7 +312,7 @@ const Product = () => {
               <div className="card p-4 mb-4 shadow-sm">
                 <div className="d-flex align-items-center">
                   <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629ea8a1e8805c27f400f01_email-marketing-services-email-example-p-500.webp" 
+                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bf49ed41fac1f20f96b0_PHP-Development-400x400.png" 
                     alt="Social Ads" 
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }}  
