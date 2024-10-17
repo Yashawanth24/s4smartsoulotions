@@ -50,9 +50,9 @@ const SkillsSection = () => {
               
             </div>
             <p className="cta-text">
-              "Beautiful design has the power to captivate."
+              Beautiful design has the power to captivate.
               <br />
-              "Get in touch with our team of designers."
+              Get in touch with our team of designers.
             </p>
             <a href="/contact" className="cta-button">
               CONTACT US →
