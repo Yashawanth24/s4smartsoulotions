@@ -164,7 +164,7 @@ const Product = () => {
                     className="img-fluid me-3" 
                     style={{ width: '100px', height: '100px' }} 
                   />
-                  <h5 className="card-title m-4">SEO</h5>
+                  <h5 className="card-title m-4">Search Engine Optimization</h5>
                 </div>
                 <p className="card-text1 mt-3">
                 Maximize your online visibility with our local SEO solution. We’ll work with you to get to know your business, your competitors, and more, so you always show up where you want to be.

@@ -33,7 +33,7 @@ const SkillsSection = () => {
           </div>
         </div>
       </div>
-      <div className="cta-section">
+      <div className="cta-section container">
         <div className="cta-card">
           <div className="title-flex-wrapper">
             <h5>LET'S</h5>
@@ -54,7 +54,7 @@ const SkillsSection = () => {
               <br />
               Get in touch with our team of designers.
             </p>
-            <a href="/contact" className="cta-button">
+            <a href="/contact" className="cta-button3">
               CONTACT US →
             </a>
           </div>

@@ -535,17 +535,18 @@ a:hover {
 
 .cta-card {
   position: relative;
-  background: url('https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba9370736f_ParallaxImage.jpg') no-repeat center center;
+  background: linear-gradient(#161616f2, #161616f2), url('https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba9370736f_ParallaxImage.jpg') no-repeat center center;
   background-size: cover;
-  border-radius: 8px;
-  padding: 40px;
-  width: 80%;
-  max-width: 900px;
+  padding: 60px 60px;
+  min-height: 360px;
+    max-height: 360px;
   box-shadow: 0 4px 8px #1c1c1c;
   display: flex;
   justify-content: space-between;
   align-items: center;
   overflow: hidden;
+  width: 80%;
+
 }
 
 .cta-card1 {
@@ -596,7 +597,7 @@ h7 {
 .cta-content {
   position: relative;
   z-index: 2;
-  text-align: right;
+  text-align: center;
   color: white;
 }
 
@@ -623,7 +624,7 @@ h7 {
 
 h5 {
   color: #ffffff;
-  /* Set the 'LET'S' text to white */
+
   font-size: 1.8rem;
   margin: 0;
 }
@@ -631,7 +632,6 @@ h5 {
 
 .title-flex-wrapper {
   text-align: left;
-  /* Align text to the left */
 }
 
 .cta-title {
@@ -642,14 +642,12 @@ h5 {
 
 .cta-content {
   text-align: right;
-  /* Align content to the right */
+
 }
 
 .cta-avatar-flex {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  /* Push avatars to the right */
   margin-bottom: 20px;
 }
 
@@ -677,8 +675,7 @@ h5 {
   font-size: 1.2rem;
   line-height: 1.5;
   color: #ffffff;
-  text-align: right;
-  /* Align text to the right */
+
 }
 
 .cta-button {
@@ -691,7 +688,6 @@ h5 {
   border-radius: 30px;
   font-weight: bold;
   text-align: right;
-  /* Align button to the right */
 
 }
 
@@ -938,8 +934,8 @@ h5 {
 .contact-form textarea {
   border-radius: 25px;
   border: 1px solid #000000;
-  padding-left: 80px;
-  padding-right: 80px;
+  padding-left: 20px;
+  padding-right: 70px;
 }
 
 .contact-form .btn {
@@ -951,6 +947,29 @@ h5 {
 .contact-form .btn:hover {
   background-color: #98e12c;
   color: #1a1919;
+}
+.cta-button3{
+  grid-column-gap: 12px;
+    grid-row-gap: 12px;
+    background-color:#8aff00;
+    color: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 24px;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 32px 12px;
+    font-family: Archivo, sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    transition: background-color .25s;
+    display: flex;
+    position: relative;
+    margin-top: 12px;
+    max-width: 210px;
 }
 
 @media (max-width: 768px) {
@@ -990,7 +1009,7 @@ h5 {
 
   .contact-form .form-control {
     font-size: 14px;
-    padding: 10px 60px;
+ 
   }
 
   .contact-form .btn {
@@ -1004,6 +1023,11 @@ h5 {
 
   .contact-form {
     padding: 15px;
+  }
+  .cta-button3{
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
   }
 }
 
@@ -2176,6 +2200,9 @@ h1 {
 
     .skill-name {
       font-size: 0.9rem;
+    }
+    .cta-section{
+      padding: 0px;
     }
   }
 
