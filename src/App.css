@@ -1337,15 +1337,16 @@ img {
     line-height: 50px;
     display: block;
     align-self: center;
-    font-weight: 500;
+    font-weight: 600;
+    padding-bottom: 20px;
 }
 
 .premium-image {
   max-width: 150px;
-  /* Adjust size as needed */
+
   height: auto;
   margin-left: 50px;
-  /* Adds space between the image and text */
+
 }
 
 
