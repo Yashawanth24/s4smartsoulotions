@@ -196,6 +196,9 @@ const Product = () => {
               </div>
               </Link>
             </div>
+            <div className="col-12">
+  <h2  style={{fontSize: '45px',lineHeight: '50px',display: 'block',fontFamily: 'Inter, sans-serif', fontWeight:'600px'}} className="servicesh2 space-122px text-center mt-5">Development Services</h2>
+</div>
             <div className="col-md-6">
             <Link to="/services/drupaldevelopment" className="text-decoration-none">
               <div className="card p-4 mb-4 shadow-sm">
