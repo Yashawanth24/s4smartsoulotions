@@ -153,95 +153,104 @@ const ServicesSection = () => {
               </Link>
             </div>
             <div className="col-md-6">
-            <Link to="/services/seo" className="text-decoration-none">
-              <div className="card p-4 mb-4 shadow-sm">
-                <div className="d-flex align-items-center">
-                  <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629e89b296855116b41165f_small-business-seo-services-features-p-500.webp" 
-                    alt="Social Ads" 
-                    className="img-fluid me-3" 
-                    style={{ width: '40px', height: '40px' }} 
-                  />
-                  <h5 className="card-title m-4">SEO</h5>
-                </div>
-                <p className="card-text mt-3">
-                Maximize your online visibility with our local SEO solution. We’ll work with you to get to know your business, your competitors, and more, so you always show up where you want to be.
-                </p>
-                <div className="d-flex justify-content-between align-items-center learn-more-container">
-            <h5 className="learn-more-text mb-0">Learn More</h5>
-            <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
-          </div>
-              </div>
-              </Link>
-            </div>
-            <div className="col-md-6">
-            <Link to="/services/socialmedia" className="text-decoration-none">
-              <div className="card p-4 mb-4 shadow-sm">
-                <div className="d-flex align-items-center">
-                  <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629e7825d907d89ae91c05f_social-media-marketing-management-features-p-500.webp" 
-                    alt="Social Ads" 
-                    className="img-fluid me-3" 
-                    style={{ width: '40px', height: '40px' }}  
-                  />
-                  <h5 className="card-title m-4">Social Media Marketing</h5>
-                </div>
-                <p className="card-text mt-3">
-                Managing your social media accounts is a 24/7 job. Grow your brand presence on Facebook, Twitter, and more with smart automation features for social media marketing.
-                </p>
-                <div className="d-flex justify-content-between align-items-center learn-more-container">
-            <h5 className="learn-more-text mb-0">Learn More</h5>
-            <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
-          </div>
-              </div>
-              </Link>
-            </div>
-            <div className="col-md-6">
-            <Link to="/services/drupaldevelopment" className="text-decoration-none">
-              <div className="card p-4 mb-4 shadow-sm">
-                <div className="d-flex align-items-center">
-                  <img 
-                   src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e126d1791da61ffc87f743_why-majento-601x514-p-500.webp" 
-                    alt="Social Ads" 
-                    className="img-fluid me-3" 
-                    style={{ width: '40px', height: '40px' }} 
-                  />
-                  <h5 className="card-title m-4">Drupal Development Services</h5>
-                </div>
-                <p className="card-text mt-3">
-                  Reach more of your potential customers and boost online visibility with social media advertising. 
-                  We’ll work with you to build an effective social ad strategy based on your unique goals and budget.
-                </p>
-                <div className="d-flex justify-content-between align-items-center learn-more-container">
-            <h5 className="learn-more-text mb-0">Learn More</h5>
-            <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
-          </div>
-              </div>
-              </Link>
-            </div>
-            <div className="col-md-6">
-            <Link to="/services/wordpress" className="text-decoration-none">
-              <div className="card p-4 mb-4 shadow-sm">
-                <div className="d-flex align-items-center">
-                  <img 
-                    src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e126d1aa91640cac1e7315_web-mobile-intro-p-500.webp" 
-                    alt="Social Ads" 
-                    className="img-fluid me-3" 
-                    style={{ width: '40px', height: '40px' }}  
-                  />
-                  <h5 className="card-title m-4">WordPress Development Services</h5>
-                </div>
-                <p className="card-text mt-3">
-                  Reach more of your potential customers and boost online visibility with social media advertising. 
-                  We’ll work with you to build an effective social ad strategy based on your unique goals and budget.
-                </p>
-                <div className="d-flex justify-content-between align-items-center learn-more-container">
-            <h5 className="learn-more-text mb-0">Learn More</h5>
-            <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
-          </div>
-              </div>
-              </Link>
-            </div>
+  <Link to="/services/seo" className="text-decoration-none">
+    <div className="card p-4 mb-4 shadow-sm">
+      <div className="d-flex align-items-center">
+        <img 
+          src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629e89b296855116b41165f_small-business-seo-services-features-p-500.webp" 
+          alt="SEO" 
+          className="img-fluid me-3" 
+          style={{ width: '40px', height: '40px' }} 
+        />
+        <h5 className="card-title m-4">SEO</h5>
+      </div>
+      <p className="card-text mt-3">
+        Maximize your online visibility with our local SEO solution. We’ll work with you to get to know your business, your competitors, and more, so you always show up where you want to be.
+      </p>
+      <div className="d-flex justify-content-between align-items-center learn-more-container">
+        <h5 className="learn-more-text mb-0">Learn More</h5>
+        <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
+      </div>
+    </div>
+  </Link>
+</div>
+
+<div className="col-md-6">
+  <Link to="/services/socialmedia" className="text-decoration-none">
+    <div className="card p-4 mb-4 shadow-sm">
+      <div className="d-flex align-items-center">
+        <img 
+          src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629e7825d907d89ae91c05f_social-media-marketing-management-features-p-500.webp" 
+          alt="Social Ads" 
+          className="img-fluid me-3" 
+          style={{ width: '40px', height: '40px' }}  
+        />
+        <h5 className="card-title m-4">Social Media Marketing</h5>
+      </div>
+      <p className="card-text mt-3">
+        Managing your social media accounts is a 24/7 job. Grow your brand presence on Facebook, Twitter, and more with smart automation features for social media marketing.
+      </p>
+      <div className="d-flex justify-content-between align-items-center learn-more-container">
+        <h5 className="learn-more-text mb-0">Learn More</h5>
+        <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
+      </div>
+    </div>
+  </Link>
+</div>
+
+
+<div className="col-12">
+  <h2  style={{fontSize: '45px',lineHeight: '50px',display: 'block',fontFamily: 'Inter, sans-serif', fontWeight:'600px'}} className="servicesh2 space-122px text-center mt-5">Development Services</h2>
+</div>
+
+<div className="col-md-6">
+  <Link to="/services/drupaldevelopment" className="text-decoration-none">
+    <div className="card p-4 mb-4 shadow-sm">
+      <div className="d-flex align-items-center">
+        <img 
+          src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e126d1791da61ffc87f743_why-majento-601x514-p-500.webp" 
+          alt="Drupal Development" 
+          className="img-fluid me-3" 
+          style={{ width: '40px', height: '40px' }} 
+        />
+        <h5 className="card-title m-4">Drupal Development Services</h5>
+      </div>
+      <p className="card-text mt-3">
+        Reach more of your potential customers and boost online visibility with social media advertising. 
+        We’ll work with you to build an effective social ad strategy based on your unique goals and budget.
+      </p>
+      <div className="d-flex justify-content-between align-items-center learn-more-container">
+        <h5 className="learn-more-text mb-0">Learn More</h5>
+        <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
+      </div>
+    </div>
+  </Link>
+</div>
+
+<div className="col-md-6">
+  <Link to="/services/wordpress" className="text-decoration-none">
+    <div className="card p-4 mb-4 shadow-sm">
+      <div className="d-flex align-items-center">
+        <img 
+          src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e126d1aa91640cac1e7315_web-mobile-intro-p-500.webp" 
+          alt="WordPress Development" 
+          className="img-fluid me-3" 
+          style={{ width: '40px', height: '40px' }}  
+        />
+        <h5 className="card-title m-4">WordPress Development Services</h5>
+      </div>
+      <p className="card-text mt-3">
+        Reach more of your potential customers and boost online visibility with social media advertising. 
+        We’ll work with you to build an effective social ad strategy based on your unique goals and budget.
+      </p>
+      <div className="d-flex justify-content-between align-items-center learn-more-container">
+        <h5 className="learn-more-text mb-0">Learn More</h5>
+        <img className="arr-img" src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6604adbe42b73cba93707334_ArrowSide.svg" alt="arrow" />
+      </div>
+    </div>
+  </Link>
+</div>
+
             <div className="col-md-6">
             <Link to="/services/applicationdevelopmentservices" className="text-decoration-none">
               <div className="card p-4 mb-4 shadow-sm">

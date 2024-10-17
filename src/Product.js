@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 const Product = () => {
   
   return (
-    <div className='product'>
+    <div className='product space-122px'>
       <div className="container " >
         <div className="row align-items-center">
-          <div className="col-md-6 textcontant">
+          <div className="col-md-7 textcontant">
             <h6 className="text-uppercase">Products & Services</h6>
             <h1 className="producth1">Built for you and your needs</h1>
             <p className="leadp">
@@ -13,7 +13,7 @@ const Product = () => {
               We’ll equip your business with the tools you need to succeed – and thrive.
             </p>
           </div>
-          <div className="col-md-6 d-flex justify-content-end">
+          <div className="col-md-5 d-flex justify-content-end">
             <img 
               src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/663dbca2e7b8bda92e2a7fb2_liq-homepage-blue-star-orange-arr-left.webp" 
               alt="Icon"

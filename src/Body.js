@@ -2,10 +2,9 @@ import React from 'react';
 
 const Body = () => {
   return (
-    <div className="container-fluid pb-2">
+    <div className="container space-122px pb-2">
       <div className="row bodycon">
-        {/* Left Section */}
-        <div className="left-section col-md-6 ">
+        <div className="left-section col-md-7 ">
           <h1>Elevate Your Business with S4 Smart Solutions</h1>
           <p >
             With 20+ years of experience, our proven record of innovation and
@@ -15,10 +14,8 @@ const Body = () => {
           </p>
         </div>
 
-        {/* Right Section */}
-        <div className="right-section col-md-6">
-          {/** First Item */}
-          <div className="item">
+        <div className="right-section col-md-5">
+                    <div className="item">
             <img
               src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/663a05a92dbca0ca2d2a0f94_Icon-3.webp"
               alt="Team Icon"
