@@ -168,12 +168,12 @@
   border-radius: 8px;
 }
 
-/* Left Section Styling */
+
 .left-section {
   display: flex;
   flex-direction: column;
   justify-content: start;
-  padding-right: 30px;
+ 
   border-right: 1px solid #000;
 }
 
@@ -260,13 +260,13 @@
 
 .item h3 {
   text-transform: none;
-  font-size: 21px;
+  font-size: 24px;
   line-height: 34px;
   color: #000;
 }
 
 .item p {
-  font-size: 0.875rem;
+  font-size: 22px;
   color: #666;
 }
 
@@ -2383,8 +2383,8 @@ h1 {
     height: 100vh;
   }
   .left-section h1{
-    font-size: 35px;
-        line-height: 45px;
+    font-size: 26px;
+        line-height: 30px;
         font-weight: 600;
         font-family: Inter, sans-serif;
         text-align: start;

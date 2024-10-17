@@ -2,11 +2,13 @@ import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 
 const ContactForm = () => {
+  
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     phone: '',
     message: '',
+  
   });
 
   const [submitted, setSubmitted] = useState(false);
@@ -34,7 +36,7 @@ const ContactForm = () => {
           phone: formData.phone,
           message: formData.message,
         },
-        'BGm1KxPNzljTNcisk'               
+        'BGm1KxPNzljTNcisk' ,              
       )
       .then(
         (result) => {
