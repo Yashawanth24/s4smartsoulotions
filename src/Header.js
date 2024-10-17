@@ -13,7 +13,7 @@ const Header = () => {
       {/* Navbar */}
       <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: 'black' }}>
         <div className="container-fluid">
-          <a className="navbar-brand d-flex align-items-center " href="/home">
+          <a className="navbar-brand d-flex align-items-center " href="/">
             <img
               src="https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/669117fd7e590071c77616f7_s4m-logo-main.png"
               alt="Logo"
