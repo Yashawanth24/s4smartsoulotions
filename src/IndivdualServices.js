@@ -214,18 +214,26 @@ const servicesData = {
       {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
 
     ],
-    [
-      {point:'Custom WordPress Development: Tailor-made websites designed to meet your unique business needs.'},
-      {point:'Theme Development and Customization: Crafting themes that are visually appealing and responsive.'},
-      {point:'Plugin Development: Enhancing your site capabilities with custom plugins'},
-      {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
+    
 
-    ],
+
+
     [
-      {point:'Custom WordPress Development: Tailor-made websites designed to meet your unique business need.'},
-      {point:'Theme Development and Customization: Crafting themes that are visually appealing and responsive.'},
-      {point:'Plugin Development: Enhancing your site capabilities with custom plugins'},
-      {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
+      {point:'Expertise: Our team has in-depth knowledge of WordPress development.'},
+      {point:'User-Centric Design: We focus on creating intuitive and user-friendly websites.'},
+      {point:'Scalable Solutions: We build WordPress sites that can grow with your business.'},
+      {point:'Performance Optimization: Ensuring your site is fast and efficient.'},
+      {point:'Comprehensive Support: From initial consultation to ongoing maintenance, we are with you every step of the way.'},
+    ],
+
+    [
+      {point:'    Discovery: Understanding your vision and goals.'},
+      {point:'Strategy: Creating a detailed plan and timeline.'},
+      {point:'Design: Developing user-friendly and attractive designs.'},
+      {point:'Development: Building and integrating WordPress functionalities.'},
+      {point:'Quality Assurance: Thorough testing for quality and performance.'},
+      {point:'Launch: Deploying your site and monitoring its performance.'},
+      {point:'Ongoing Support: Providing regular updates and support.'},
 
     ]
   ],
@@ -243,19 +251,24 @@ const servicesData = {
       {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
       {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
 
-    ],[
-    {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-    {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-    {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-    {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+    ],
+ 
+    [
+    {point:'Tailored Solutions: Custom applications built to meet your specific business needs.'},
+    {point:' Cutting-Edge Technology: Utilizing the latest technologies to deliver innovative solutions.'},
+    {point:'Experienced Team: A team of skilled developers with extensive industry experience.'},
+    {point:'End-to-End Service: From initial concept to deployment and support, we handle it all.'},
+    {point:'Client Satisfaction: Committed to delivering solutions that exceed client expectations.'},
 
   ],
   [
-    {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-    {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-    {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-    {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
-
+    {point:'  Initial Consultation: Discuss your business needs and project objectives.'},
+    {point:'Requirement Analysis: Define the technical requirements and project scope.'},
+    {point:'Design and Prototyping: Create user-friendly designs and functional prototypes.'},
+    {point:'Development: Build the application using best practices and cutting-edge technology.'},
+    {point:'Testing: Conduct thorough testing to ensure functionality and performance.'},
+    {point:'Deployment: Launch the application and monitor initial performance.'},
+    {point:'Support and Maintenance: Provide ongoing support and updates to keep the application running smoothly.'},
   ]],
   repeatSection: 3,
   },
@@ -301,18 +314,25 @@ const servicesData = {
       {point:'Performance Tuning: Optimizing database performance for maximum efficiency.'},
       {point:'Data Migration: Seamless migration of data to Oracle Database.'},
       {point:'Backup and Recovery: Implementing robust backup and recovery strategies.'},
-    ],[
-      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+    ],
+
+    [
+      {point:'Expert Knowledge: Our team has deep expertise in Oracle Database technologies.'},
+      {point:' Customized Solutions: Tailored database solutions to fit your specific needs.'},
+      {point:'E  Reliability: Ensuring your data is always available and secure.'},
+      {point:'  Performance Optimization: Maximizing the performance of your Oracle Database.'},
+      {point:'      Long-Term Support: Providing ongoing support to maintain and optimize your database.'},
   
     ],
+
     [
-      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Assessment: Understanding your current database environment and business requirements.'},
+      {point:'Planning: Developing a customized plan for your Oracle Database needs.'},
+      {point:'Design: Creating a robust and scalable database architecture.'},
       {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+      {point:'Implementation: Deploying the database solution and ensuring a smooth transition.'},
+      {point:'Optimization: Continuously tuning the database for optimal performance.'},
+      {point:'Support: Providing ongoing support and troubleshooting to address any issues.'},
   
     ]],
     repeatSection: 3,
@@ -329,19 +349,23 @@ const servicesData = {
       {point:'PHP Framework Development: Our expertise in popular PHP frameworks such as Laravel, Symfony, and CodeIgniter allows us to develop high-performance web applications quickly and efficiently.'},
       {point:'E-commerce Solutions: We create powerful and secure e-commerce platforms using PHP, providing a seamless shopping experience for your customers.'},
       {point:'API Integration: Our team integrates third-party APIs to enhance the functionality of your PHP applications, ensuring they meet all your business needs.'},
-    ],[
-      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
-  
+    ],
+
+    [
+      {point:'Experienced Developers: Our team consists of skilled PHP developers with years of experience in delivering high-quality web solutions.'},
+      {point:' Customized Solutions: We understand that every business is unique. That&#39;s why we provide customized PHP development services that align with your specific needs.'},
+      {point:'Proven Track Record: We have a proven track record of successful PHP projects across various industries, showcasing our ability to deliver results.'},
+      {point:'Client-Centric Approach: We prioritize our clients& needs and work closely with them to ensure their vision is brought to life.'},
+      {point:'Competitive Pricing: Our PHP development services are competitively priced, providing you with exceptional value for your investment.'},
+
     ],
     [
-      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
-  
+      {point:'Discovery: We begin by understanding your business goals, requirements, and project scope.'},
+      {point:'Planning: Our team creates a detailed project plan outlining the development process, timelines, and milestones.'},
+      {point:'Design: We design intuitive and user-friendly interfaces that enhance the user experience.'},
+      {point:'Development: Our developers bring the design to life by coding robust and scalable PHP applications.'},
+      {point:'Testing: We rigorously test the application to ensure it is free of bugs and performs optimally.'},
+      {point:'Support: We provide ongoing support and maintenance to ensure your application continues to perform well.'},
     ]],
     repeatSection: 3,
       
