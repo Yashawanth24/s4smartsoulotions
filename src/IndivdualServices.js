@@ -241,7 +241,7 @@ const servicesData = {
   },
   applicationdevelopmentservices: {
     title: "Application Development Services",
-    description: "Drive more leads to your business with S4 Smart solutions innovative PPC management technology and expertise. We’ll help you do everything from account setup and keyword creation to data analysis and reporting across Google Ads and other search engines.",
+    description: "At S4 Smart Solutions, we understand that every business has unique needs. Our custom application development services are designed to create innovative software solutions that driveefficiency and growth. From mobile apps to complex enterprise solutions, we have you covered.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628ec625cf5484477abd8ef_ppc-management-services-dashboard-p-500.webp",
     h3: "Crafting Custom Applications for Business Success",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bcc9ea0931b432483423_pexels-photo-4164418.webp",
@@ -277,7 +277,7 @@ const servicesData = {
   },
   salesforcedevelopmentservices: {
     title: "Salesforce Development Services",
-    description: "Ensure your business gets found with our business listings management solution.",
+    description: "At S4 Smart Solutions, we help businesses unlock the full potential of Salesforce throughcustomized development solutions. Our certified Salesforce experts tailor the platform to fit yourunique business processes, enhancing efficiency and driving growth.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbcf9c63d095a2ee69a2_saleforce-development-services.jpg",
     
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66289cc0cedfaf4f4a0f4b29_display-advertising-services-features-2.webp",
@@ -318,7 +318,7 @@ const servicesData = {
   },
   oracledatabaseservices: {
     title: "Oracle Database Services",
-    description: "Make a great first impression with a fully optimized and searchable website.",
+    description: "At S4 Smart Solutions, we provide comprehensive Oracle Database services that help businesses manage and optimize their data effectively. Our team of experts delivers customized solutions to meet your data management needs, ensuring reliability and performance.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbcd4554159d93bb689c_oracle.webp",
     h3: "Optimizing Data Management with Oracle Database Solutions",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbce4b25ba70add3718e_oracle-s.png",
@@ -356,7 +356,7 @@ const servicesData = {
   },
   phpdevelopmentservices: {
     title: "PHP Development Services",
-    description: "Make a great first impression with a fully optimized and searchable website.",
+    description: "At S4 Smart Solutions, we specialize in delivering high-quality PHP development services tailored to meet the unique needs of your business. Our team of experienced developers is proficient in creating dynamic, robust, and scalable web applications using PHP.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bf49ed41fac1f20f96b0_PHP-Development-400x400.png",
     h3: "Expert PHP Development Solutions for Your Business",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbd7c2e6b751afdc2ece_pexels-photo-574069.webp",
