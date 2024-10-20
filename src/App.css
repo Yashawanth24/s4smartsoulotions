@@ -468,6 +468,7 @@ a:hover {
   min-height: 122px;
 }
 
+
 .skills-subtitle {
   font-size: 1rem;
   letter-spacing: 2px;
@@ -546,7 +547,7 @@ a:hover {
   align-items: center;
   overflow: hidden;
   width: 80%;
-
+box-shadow: none;
 }
 
 .cta-card1 {
@@ -1095,7 +1096,7 @@ h5 {
 .cta-button1 {
   background-color: #e6e6e6;
   border: none;
-  padding: 10px 28px;
+  padding: 12px 25px;
   font-size: 1.2em;
   cursor: pointer;
   border-radius: 30px;
@@ -1215,6 +1216,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 40px;
+  padding-bottom: 60px;
   /* This will no longer apply as the gap is handled by Bootstrap */
 }
 
@@ -1223,14 +1225,17 @@ img {
   color: #000;
 }
 
-.display-ads-text h3 {
+/* .display-ads-text h3 {
   color: #161616;
   text-transform: capitalize;
   font-size: 25px;
   font-weight: 700;
   line-height: 32px;
+} */
+.black-border-btm{
+  border-bottom: 1px solid #000000c2;
+    margin-bottom: 10px;
 }
-
 .display-ads-text h2 {
   font-size: 45px;
   /* Adjusted for consistency */
@@ -2084,6 +2089,14 @@ h1 {
 .space-112px {
   height: 64px;
 }
+.keypointsheader{
+  text-transform: capitalize;
+    font-size: 45px;
+    line-height: 55px;
+    color: #161616;
+    padding-bottom: 16px;
+    font-weight: 700;
+}
 
 /* Responsive Design */
 @media (max-width: 991px) {
@@ -2712,13 +2725,15 @@ h1 {
   .cta-button1 {
     padding: 8px 17px;
     width: 100%;
-    /* Button takes up the full width of its column */
+
     max-width: 570px;
-    /* Optional: Cap the width for larger screens */
+
     align-self: center;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 800;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
   }
 
 

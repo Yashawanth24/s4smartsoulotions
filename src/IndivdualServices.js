@@ -15,15 +15,17 @@ const servicesData = {
       { title: 'Have everything you need in one place', content: 'See performance and results from your social ad campaigns across multiple platforms in one unified marketing dashboard.' },
       { title: 'Know your campaigns are in good hands', content: 'You deserve a partner that’s committed to delivering excellence. Our experts can help you run great ads across Facebook, Instagram, Snapchat, and more.' },
     ],
-    keypoints:[
+    keypoints:[[
+    {  title: "Social Ads",},
       {point:'Facebook ad management'},
       {point:'Instagram ad management'},
       {point:'Facebook Audience Network ads'},
       {point:'Advanced targeting options'},
-          ]
+    ]],
+          repeatKeypoints: false,
   },
   displayads: {
-    title: "Display Ads",
+   title: "Display Ads",
     description: "Reach bigger audiences and increase your brand awareness. We’ll help identify your business goals and then run targeted display campaigns using retargeting, geofencing, and other advanced tactics.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628b168ef8096e539023b2e_display-advertising-services-performance-dashboard-p-800.webp",
     h3: "Maximize your ROI with display ads",
@@ -34,15 +36,16 @@ const servicesData = {
       { title: 'See how your ads are performing', content: 'Measure and track your display campaign performance and leads with our marketing dashboard.' },
       { title: 'See how your ads are performing', content: 'Measure and track your display campaign performance and leads with our marketing dashboard.' },
     ],
-    keypoints:[
+    keypoints:[[
+     { title: "Display Ads"},
       {point:'Take advantage of goal-based display ad management and targeting'},
       {point:'Use site and search retargeting to increase conversion rates'},
       {point:'Reach users where they are in real time with geofencing'},
       {point:'Replicate your best customers with lookalike audiences'},
-          ]
+         ] ]
   },
   searchads: {
-    title: "Search Ads",
+  title: "Search Ads",
     description: "Drive more leads to your business with S4 Smart solutions innovative PPC management technology and expertise. We’ll help you do everything from account setup and keyword creation to data analysis and reporting across Google Ads and other search engines.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628ec625cf5484477abd8ef_ppc-management-services-dashboard-p-500.webp",
     h3: "Get more leads for your business",
@@ -53,17 +56,18 @@ const servicesData = {
       { title: 'Know exactly how your campaigns are performing', content: 'View real-time data like site visits, calls, emails, and forms submitted with online and mobile reports through our lead dashboard.' },
       { title: 'Put your trust in us', content: 'Get the latest and greatest insights for your business. We have leading partnerships with Google, Yahoo, and Microsoft that will help you grow.' },
     ],
-    keypoints:[
+    keypoints:[[
+      {  title: "Search Ads"},
       {point:'Flexible search ad management across Google, Microsoft, and all major search engines'},
       {point:'Smart budget optimization'},
       {point:'Comprehensive and easy-to-read reporting'},
       {point:'Explore additional features like Local Services Ads, Shopping Ads, and mobile ad call extensions'},
-          ]
+          ]]
    
   },
   listings: {
-    title: "Listings",
-    description: "Ensure your business gets found with our business listings management solution.",
+   title: "Listings",
+    description: "Make sure your business gets found with our business listings management solution. We’ll help you get accurately listed where it matters to drive more visits, calls, and clicks to your business.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628f798dfe0688fee2bd632_local-business-listing-management-tool-features-p-500.webp",
     h3: "Managing your business listings is easier than ever",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628f798dfe0688fee2bd632_local-business-listing-management-tool-features.webp",
@@ -73,17 +77,18 @@ const servicesData = {
       { title: 'Increase your business’s visibility', content: 'Be seen by the right audiences. Your directory listings show up in search results when it counts, so you can attract new customers.' },
       { title: 'Stay on top of your reviews', content: 'See your average star rating and most recent reviews, then easily respond to them with our all-in-one platform.' },
     ],
-    keypoints:[
+    keypoints:[[
+      {title: "Listings"},
       {point:'Manage your listings across one or multiple business locations'},
       {point:'Up to 50+ online business listing directories'},
       {point:'A single dashboard to manage and automate listings updates'},
       {point:'Simplified review monitoring and management'},
       {point:'Comprehensive and easy-to-read reporting'},
-          ]
+          ]]
   },
   websites: {
     title: "Website and Landing Pages",
-    description: "Make a great first impression with a fully optimized and searchable website.",
+    description: "Your website is your first chance to make a great impression with potential customers. Convert more visitors with a site that’s current, fully optimized, and gets found on search engines.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628f7ba2038a5f4fad63a46_small-business-website-builder-site-security-p-500.webp",
     h3: "Set your website up for success",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628f7bb1312e259fc83eda0_small-business-website-builder-site-design-desktop-mobile.webp",
@@ -93,13 +98,14 @@ const servicesData = {
       { title: 'Get everything you need in one place', content: 'Track your leads, listen to recorded phone calls, and follow up directly from our marketing dashboard.' },
       { title: 'Ensure your website is secure and user-friendly', content: 'Get a mobile-optimized and SEO-friendly site along with an SSL certificate to show search engines it’s safe.' },
     ],
-    keypoints:[
+    keypoints:[[
+      {title: "Website and Landing Pages"},
       {point:'Website creation from a choice of designs'},
       {point:'Expert copywriting'},
       {point:'Responsive, mobile-friendly, and search-optimized templates'},
       {point:'Lead tracking technology'},
       {point:'Monthly updates and support'},
-          ]
+          ]]
   },
   emailmarketing: {
     title: "Targeted Email Marketing",
@@ -112,16 +118,17 @@ const servicesData = {
       { title: 'Improve your campaign results', content: 'Send your message to people who actually want to hear from you. Our list-verification practices ensure emails are being delivered to your most likely customers.' },
       { title: 'Get tailored business solutions', content: 'Track your leads, listen to recorded phone calls, and follow up directly from our marketing dashboard.' },
     ],
-    keypoints:[
+    keypoints:[[
+{title: "Targeted Email Marketing"},
       {point:'Email copywriting, list building, and delivery'},
       {point:'Location and demographic-based audience targeting'},
       {point:'Matchback reporting'},
       {point:'Explore additional features like retargeted direct mail and reminder emails'},
-          ]
+          ]]
   },
   seo: {
     title: "SEO",
-    description: "Reach bigger audiences and increase your brand awareness. We’ll help identify your business goals and then run targeted display campaigns using retargeting, geofencing, and other advanced tactics.",
+    description: "Maximize your online visibility with our local SEO solution. We’ll work with you to get to know your business, your competitors, and more, so you always show up where you want to be",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628b168ef8096e539023b2e_display-advertising-services-performance-dashboard-p-800.webp",
     h3: "Increase your business success with local SEO",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629e89b296855116b41165f_small-business-seo-services-features.webp",
@@ -130,17 +137,18 @@ const servicesData = {
       { title: 'Improve visibility', content: 'See what leads people to your site and what drives them to contact you with our tracking and capture technology.' },
       { title: 'See real results', content: 'Get a view of new leads and traffic sources, discover which pages and search queries drive the most clicks, and more.' },
     ],
-    keypoints:[
+    keypoints:[[
+      {title: "SEO"},
       {point:'Website and SEO competitor analyses and strategy development'},
       {point:'Strategic site and content optimizations'},
       {point:'Technical site enhancements'},
       {point:'EComprehensive and easy-to-read reporting'},
       {point:'Explore additional features like blog content, topical SEO, location-based SEO, and infographics'},
-          ]
+          ]]
   },
   socialmedia: {
-    title: "Social Media Marketing",
-    description: "Drive more leads to your business with S4 Smart solutions innovative PPC management technology and expertise. We’ll help you do everything from account setup and keyword creation to data analysis and reporting across Google Ads and other search engines.",
+   title: "Social Media Marketing",
+    description: "Managing your social media accounts is a 24/7 job. Grow your brand presence on Facebook, Twitter, and more with smart automation features for social media marketing.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628ec625cf5484477abd8ef_ppc-management-services-dashboard-p-500.webp",
     h3: "Build a better social media presence for your small business",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66289cc0cedfaf4f4a0f4b29_display-advertising-services-features-2.webp",
@@ -149,27 +157,49 @@ const servicesData = {
       { title: 'Manage your reviews', content: 'Maintain a strong online reputation. Our platform uses brand listening to find active conversations related to your business and then helps you respond.' },
       { title: 'Do it all in less time', content: 'There are never enough hours in your day. We’ll help manage your primary social media channels and review feedback, so you can focus on your customers.' },
     ],
-    keypoints:[
+    keypoints:[[{ title: "Social Media Marketing"},
       {point:'Website and SEO competitor analyses and strategy development'},
       {point:'Strategic site and content optimizations'},
       {point:'Technical site enhancements'},
       {point:'EComprehensive and easy-to-read reporting'},
       {point:'Explore additional features like blog content, topical SEO, location-based SEO, and infographics'},
-          ]
+          ]]
   },
   drupaldevelopment: {
-    title: "Drupal Development Services",
-    description: "Ensure your business gets found with our business listings management solution.",
+    title:"Drupal Development Services",
+    description: "At [Your Company Name], we harness the flexibility and robustness of Drupal to create powerful web solutions tailored to your business needs. Whether you are a startup or an established enterprise, our Drupal development services can help you achieve a dynamic onlinenpresence",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6629e78303d00357b6088edc_social-media-marketing-dashboard-p-500.webp",
     h3: "Empowering Your Web Presence with Drupal",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66289cc0cedfaf4f4a0f4b29_display-advertising-services-features-2.webp",
-    keypoints:[
+    keypoints:[[
+      {  title: "Drupal Development Services"},
       {point:'Custom Drupal Solutions: We build tailored Drupal websites that cater to your specific requirements.'},
       {point:'Module Development: Enhance your site with custom modules designed to extend functionality.'},
       {point:'Theme Customization: Develop responsive and visually appealing themes that resonate with your brand.'},
       {point:'Drupal Migration: Seamlessly migrate your existing site to Drupal, ensuring data integrity.'},
       {point:'Support and Maintenance: Ongoing support to keep your Drupal site updated and secure.'},
-          ]
+          ],
+          [
+            {title:"Why Choose Us?"},
+            {point:'Experienced Developers: Our team has extensive experience in delivering high-quality Drupal solutions.'},
+            {point:'Innovative Solutions: We use the latest Drupal technologies to provide innovative web solutions.'},
+            {point:'Client-Centric Approach: We work closely with our clients to ensure their vision is realized.'},
+            {point:'Competitive Pricing: High-quality services at competitive rates.'},
+            {point:'Support and Maintenance: Ongoing support to keep your Drupal site updated and secure.'},
+                ],
+                [
+              
+                  {title:"Our Development Process"},
+                  {point:'Consultation: Understand your business needs and goals.'},
+                  {point:'Planning: Develop a detailed project roadmap'},
+                  {point:'  Design: Create user-friendly and engaging designs.'},
+                  {point:'Development: Build robust and scalable Drupal websites.'},
+                  {point:'Testing: Rigorous testing to ensure optimal performance.'},
+                  {point:'Launch: Deploy your site and ensure smooth operation.'},
+                  {point:'Maintenance: Provide ongoing support and updates.'}]],
+                  repeatSection: 3,
+
+
   },
   wordpress: {
     title: "WordPress Development Services",
@@ -177,13 +207,29 @@ const servicesData = {
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2c1dee9cd49d51c284e3f_1_uDJTLivemR18proTkBsMEQ-p-500.jpg",
     h3: "Transforming Ideas into Reality with WordPress",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2c17b4f606da7eb6b3368_process-banner_1_.webp",
-    keypoints:[
+    keypoints:[[
       {point:'Custom WordPress Development: Tailor-made websites designed to meet your unique business needs.'},
       {point:'Theme Development and Customization: Crafting themes that are visually appealing and responsive.'},
       {point:'Plugin Development: Enhancing your site capabilities with custom plugins'},
       {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
 
-          ]
+    ],
+    [
+      {point:'Custom WordPress Development: Tailor-made websites designed to meet your unique business needs.'},
+      {point:'Theme Development and Customization: Crafting themes that are visually appealing and responsive.'},
+      {point:'Plugin Development: Enhancing your site capabilities with custom plugins'},
+      {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
+
+    ],
+    [
+      {point:'Custom WordPress Development: Tailor-made websites designed to meet your unique business need.'},
+      {point:'Theme Development and Customization: Crafting themes that are visually appealing and responsive.'},
+      {point:'Plugin Development: Enhancing your site capabilities with custom plugins'},
+      {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
+
+    ]
+  ],
+          repeatSection: 3,
   },
   applicationdevelopmentservices: {
     title: "Application Development Services",
@@ -191,27 +237,58 @@ const servicesData = {
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/6628ec625cf5484477abd8ef_ppc-management-services-dashboard-p-500.webp",
     h3: "Crafting Custom Applications for Business Success",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bcc9ea0931b432483423_pexels-photo-4164418.webp",
-    keypoints:[
+    keypoints:[[
       {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
       {point:'Web Application Development: Creating dynamic and responsive web applications.'},
       {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
       {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
 
-          ]
+    ],[
+    {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+    {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+    {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+    {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+
+  ],
+  [
+    {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+    {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+    {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+    {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+
+  ]],
+  repeatSection: 3,
   },
   salesforcedevelopmentservices: {
     title: "Salesforce Development Services",
     description: "Ensure your business gets found with our business listings management solution.",
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbcf9c63d095a2ee69a2_saleforce-development-services.jpg",
-    h3: "Maximize your ROI with display ads",
+    
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66289cc0cedfaf4f4a0f4b29_display-advertising-services-features-2.webp",
-    keypoints:[
+    keypoints:[[
+     {h3: "Maximize your ROI with display ads",},
       {point:'Custom Development: Building custom Salesforce solutions to fit your specific needs.'},
       {point:'System Integration: Integrating Salesforce with your existing systems for seamless operations.'},
       {point:'App Development: Creating custom applications on the Salesforce platform.'},
       {point:'Data Migration: Smoothly transitioning data from other systems to Salesforce.'},
-
-          ]
+    ],[
+      {h3: "Maximize your ROI with display a",},
+      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+  
+    ],
+    [
+      {h3: "Maximize your ROI with display as",},
+      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+  
+    ]],
+    repeatSection: 3,
+          
   },
   oracledatabaseservices: {
     title: "Oracle Database Services",
@@ -219,13 +296,27 @@ const servicesData = {
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbcd4554159d93bb689c_oracle.webp",
     h3: "Optimizing Data Management with Oracle Database Solutions",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbce4b25ba70add3718e_oracle-s.png",
-    keypoints:[
+    keypoints:[[
       {point:'Database Development: Designing and developing custom Oracle Database solutions.'},
       {point:'Performance Tuning: Optimizing database performance for maximum efficiency.'},
       {point:'Data Migration: Seamless migration of data to Oracle Database.'},
       {point:'Backup and Recovery: Implementing robust backup and recovery strategies.'},
-
-          ]
+    ],[
+      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+  
+    ],
+    [
+      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+  
+    ]],
+    repeatSection: 3,
+          
   },
   phpdevelopmentservices: {
     title: "PHP Development Services",
@@ -233,13 +324,27 @@ const servicesData = {
     imageUrl: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bf49ed41fac1f20f96b0_PHP-Development-400x400.png",
     h3: "Expert PHP Development Solutions for Your Business",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbd7c2e6b751afdc2ece_pexels-photo-574069.webp",
-    keypoints:[
+    keypoints:[[
       {point:'Custom PHP Development: We build custom PHP applications from scratch, ensuring they are fully tailored to your specific business requirements.'},
       {point:'PHP Framework Development: Our expertise in popular PHP frameworks such as Laravel, Symfony, and CodeIgniter allows us to develop high-performance web applications quickly and efficiently.'},
       {point:'E-commerce Solutions: We create powerful and secure e-commerce platforms using PHP, providing a seamless shopping experience for your customers.'},
       {point:'API Integration: Our team integrates third-party APIs to enhance the functionality of your PHP applications, ensuring they meet all your business needs.'},
-
-          ]
+    ],[
+      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+  
+    ],
+    [
+      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
+      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
+      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
+      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+  
+    ]],
+    repeatSection: 3,
+      
   },
 
 };
@@ -330,28 +435,46 @@ const IndivdualServices = () => {
     </div>
 
 
-
     <section className="display-ads-content container">
   <div className="row align-items-center" style={{ marginTop: '120px', background: '#ffffff' }}>
-    <div className="col-md-6 d-flex justify-content-center">
-      <img
-        src={service.keyfeaturesimage}
-        alt="Maximize Your ROI With Display Ads"
-        className="display-ads-image"
-        style={{ maxWidth: '400px', height: 'auto' }}
-      />
-    </div>
-    <div className="col-md-6 display-ads-text">
-  <h3>{service.h3}</h3>
-  <h2>Maximize Your ROI With Display Ads</h2>
-  <ul>
-    {service.keypoints.map((keypoint, index) => (
-      <li key={index}>{keypoint.point}</li>
+    {service.keypoints.slice(0, service.repeatSection).map((keypointsForSection, idx) => (
+      <div key={idx} className="col-12" style={{ marginBottom: '60px' }}>
+        <div className="row align-items-center">
+          <div className="col-md-6 d-flex justify-content-center">
+            <img
+              src={service.keyfeaturesimage}
+              alt={service.title}
+              className="display-ads-image"
+              style={{ maxWidth: '400px', height: 'auto' }}
+            />
+          </div>
+          <div className="col-md-6 display-ads-text">
+            {keypointsForSection[0]?.title ? (
+              <h3 className="keypointsheader black-border-btm">{keypointsForSection[0].title}</h3>
+            ) : (
+              <h3>{service.h3}</h3> // Fallback to the default h3 if title is not present
+            )}
+            {/* <h2>{service.title}</h2> */}
+            <ul>
+              {Array.isArray(keypointsForSection) && keypointsForSection.length > 0 ? (
+                keypointsForSection.map((keypoint, index) => (
+                  <li key={index}>{keypoint.point}</li>
+                ))
+              ) : (
+                <li>No key points available</li>
+              )}
+            </ul>
+          </div>
+        </div>
+      </div>
     ))}
-  </ul>
-</div>
   </div>
 </section>
+
+
+
+
+
 
 
 
@@ -376,7 +499,7 @@ const IndivdualServices = () => {
   <div className="premium-section">
     <div className="container">
       <div className="row align-items-center">
-        {/* Left Text Content */}
+
         <div className="col-12 col-md-6 text-center text-md-left">
           <h4 id="premh4">Premium Solutions</h4>
           <h1 id="prem1">Ready To Get Started? Connect With Us.</h1>
@@ -385,7 +508,7 @@ const IndivdualServices = () => {
           </Link>
         </div>
 
-        {/* Right Image Content */}
+
         <div className="col-12 col-md-6 text-center">
           <div className="image-contentservice">
             <img
