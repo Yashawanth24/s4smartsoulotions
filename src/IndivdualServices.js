@@ -208,17 +208,16 @@ const servicesData = {
     h3: "Transforming Ideas into Reality with WordPress",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2c17b4f606da7eb6b3368_process-banner_1_.webp",
     keypoints:[[
+      {title:"Transforming Ideas into Reality with WordPress"},
       {point:'Custom WordPress Development: Tailor-made websites designed to meet your unique business needs.'},
       {point:'Theme Development and Customization: Crafting themes that are visually appealing and responsive.'},
       {point:'Plugin Development: Enhancing your site capabilities with custom plugins'},
       {point:'E-commerce Solutions: Building robust online stores using WooCommerce.'},
 
     ],
-    
-
-
 
     [
+      {title:"Why Work with Us?"},
       {point:'Expertise: Our team has in-depth knowledge of WordPress development.'},
       {point:'User-Centric Design: We focus on creating intuitive and user-friendly websites.'},
       {point:'Scalable Solutions: We build WordPress sites that can grow with your business.'},
@@ -227,7 +226,8 @@ const servicesData = {
     ],
 
     [
-      {point:'    Discovery: Understanding your vision and goals.'},
+      {title:"Our Development Process"},
+      {point:' Discovery: Understanding your vision and goals.'},
       {point:'Strategy: Creating a detailed plan and timeline.'},
       {point:'Design: Developing user-friendly and attractive designs.'},
       {point:'Development: Building and integrating WordPress functionalities.'},
@@ -246,6 +246,7 @@ const servicesData = {
     h3: "Crafting Custom Applications for Business Success",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bcc9ea0931b432483423_pexels-photo-4164418.webp",
     keypoints:[[
+      {title:"Crafting Custom Applications for Business Success"},
       {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
       {point:'Web Application Development: Creating dynamic and responsive web applications.'},
       {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
@@ -254,6 +255,7 @@ const servicesData = {
     ],
  
     [
+      {title:"Why Choose Us?"},
     {point:'Tailored Solutions: Custom applications built to meet your specific business needs.'},
     {point:' Cutting-Edge Technology: Utilizing the latest technologies to deliver innovative solutions.'},
     {point:'Experienced Team: A team of skilled developers with extensive industry experience.'},
@@ -262,6 +264,7 @@ const servicesData = {
 
   ],
   [
+    {title:"Our Approach"},
     {point:'  Initial Consultation: Discuss your business needs and project objectives.'},
     {point:'Requirement Analysis: Define the technical requirements and project scope.'},
     {point:'Design and Prototyping: Create user-friendly designs and functional prototypes.'},
@@ -279,25 +282,35 @@ const servicesData = {
     
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66289cc0cedfaf4f4a0f4b29_display-advertising-services-features-2.webp",
     keypoints:[[
+      {title:"Maximizing Your Business Potential with Salesforce"},
      {h3: "Maximize your ROI with display ads",},
       {point:'Custom Development: Building custom Salesforce solutions to fit your specific needs.'},
       {point:'System Integration: Integrating Salesforce with your existing systems for seamless operations.'},
       {point:'App Development: Creating custom applications on the Salesforce platform.'},
       {point:'Data Migration: Smoothly transitioning data from other systems to Salesforce.'},
-    ],[
+    ],
+ [
+      {title:"Why Choose Our Services?"},
       {h3: "Maximize your ROI with display a",},
-      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+      {point:'Certified Professionals: Our team includes certified Salesforce developers and consultants.'},
+      {point:'Tailored Solutions: Custom Salesforce development to meet your unique requirements.'},
+      {point:' Improved Efficiency: Streamlining your business processes with Salesforce.'},
+      {point:' Data Security: Ensuring your data is secure and compliant.'},
   
     ],
+
+
     [
+      {title:"Our Methodology"},
       {h3: "Maximize your ROI with display as",},
-      {point:'Mobile App Development: Building user-friendly mobile applications for iOS and Android.'},
-      {point:'Web Application Development: Creating dynamic and responsive web applications.'},
-      {point:'Enterprise Solutions: Developing scalable and secure applications for enterprise use.'},
-      {point:'Cloud Integration: Leveraging cloud technologies to enhance application performance and scalability.'},
+      {point:'    Discovery: Understanding your business processes and goals.'},
+      {point:'Planning: Developing a customized Salesforce implementation strategy.'},
+      {point:'Design: Creating solutions that are user-friendly and effective.'},
+      {point:'Development: Building custom Salesforce applications and integrations.'},
+      {point:'    Discovery: Understanding your business processes and goals.'},
+      {point:'Testing: Ensuring the solutions are robust and perform as expected.'},
+      {point:'Deployment: Implementing the solutions and providing initial support.'},
+      {point:'Ongoing Support: Offering continuous support and training to ensure long-term success.'}
   
     ]],
     repeatSection: 3,
@@ -310,6 +323,7 @@ const servicesData = {
     h3: "Optimizing Data Management with Oracle Database Solutions",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbce4b25ba70add3718e_oracle-s.png",
     keypoints:[[
+      {title:"Optimizing Data Management with Oracle Database Solutions"},
       {point:'Database Development: Designing and developing custom Oracle Database solutions.'},
       {point:'Performance Tuning: Optimizing database performance for maximum efficiency.'},
       {point:'Data Migration: Seamless migration of data to Oracle Database.'},
@@ -317,6 +331,7 @@ const servicesData = {
     ],
 
     [
+      {title:"Why Partner with Us?"},
       {point:'Expert Knowledge: Our team has deep expertise in Oracle Database technologies.'},
       {point:' Customized Solutions: Tailored database solutions to fit your specific needs.'},
       {point:'E  Reliability: Ensuring your data is always available and secure.'},
@@ -326,6 +341,7 @@ const servicesData = {
     ],
 
     [
+      {title:"Our Service Approach"},
       {point:'Assessment: Understanding your current database environment and business requirements.'},
       {point:'Planning: Developing a customized plan for your Oracle Database needs.'},
       {point:'Design: Creating a robust and scalable database architecture.'},
@@ -345,6 +361,7 @@ const servicesData = {
     h3: "Expert PHP Development Solutions for Your Business",
     keyfeaturesimage: "https://cdn.prod.website-files.com/6604adbd42b73cba937072b0/66e2bbd7c2e6b751afdc2ece_pexels-photo-574069.webp",
     keypoints:[[
+      {title:"Expert PHP Development Solutions for Your Business"},
       {point:'Custom PHP Development: We build custom PHP applications from scratch, ensuring they are fully tailored to your specific business requirements.'},
       {point:'PHP Framework Development: Our expertise in popular PHP frameworks such as Laravel, Symfony, and CodeIgniter allows us to develop high-performance web applications quickly and efficiently.'},
       {point:'E-commerce Solutions: We create powerful and secure e-commerce platforms using PHP, providing a seamless shopping experience for your customers.'},
@@ -352,6 +369,7 @@ const servicesData = {
     ],
 
     [
+      {title:"Expert PHP Development Solutions for Your Business"},
       {point:'Experienced Developers: Our team consists of skilled PHP developers with years of experience in delivering high-quality web solutions.'},
       {point:' Customized Solutions: We understand that every business is unique. That&#39;s why we provide customized PHP development services that align with your specific needs.'},
       {point:'Proven Track Record: We have a proven track record of successful PHP projects across various industries, showcasing our ability to deliver results.'},
@@ -360,6 +378,7 @@ const servicesData = {
 
     ],
     [
+      {title:"Our Process"},
       {point:'Discovery: We begin by understanding your business goals, requirements, and project scope.'},
       {point:'Planning: Our team creates a detailed project plan outlining the development process, timelines, and milestones.'},
       {point:'Design: We design intuitive and user-friendly interfaces that enhance the user experience.'},
